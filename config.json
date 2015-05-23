@@ -1,0 +1,24 @@
+{
+  "locals": {
+    "url": "http://barcamperfurt.github.io",
+    "name": "barcamp erfurt",
+    "owner": "barcamperfurt",
+    "description": "",
+    "keywords": ""
+  },
+  "plugins": [
+    "./node_modules/wintersmith-stylus/",
+    "wintersmith-livereload"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "lodash"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  }
+}

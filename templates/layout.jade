@@ -1,0 +1,142 @@
+doctype
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='viewport', content='width=device-width')
+    meta(property='og:type', content='website')
+    meta(property='og:url', content='#{locals.url}#{page.url}')
+    meta(property='og:image', content='#{locals.url}/images/logo.png')
+    meta(name='theme-color', content='#911C80')
+
+    block meta
+      meta(property='og:description', content=locals.description)
+      meta(name='description', content=locals.description)
+      meta(name='keywords', content=locals.keywords)
+
+    block title
+      title= locals.name
+      meta(property='og:title', content= locals.name)
+
+    link(rel='shortcut icon', href='/favicon.ico', type='image/x-icon')
+    link(rel='apple-touch-icon', href='/apple-touch-icon.png')
+    link(rel='apple-touch-icon', sizes='57x57', href='/apple-touch-icon-57x57.png')
+    link(rel='apple-touch-icon', sizes='72x72', href='/apple-touch-icon-72x72.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='/apple-touch-icon-114x114.png')
+    link(rel='apple-touch-icon', sizes='144x144', href='/apple-touch-icon-144x144.png')
+
+    link(rel='alternate', href='/feed.xml', type='application/rss+xml', title=locals.name)
+    link(href='http://fonts.googleapis.com/css?family=Lato:300|Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css')
+    link(rel='stylesheet', href='/css/main.css')
+
+  body.site(class=page.metadata.category ? 'site--' + page.metadata.category : '')
+    header.header
+      .grid
+        .small-12.large-6.columns
+          a(href='/')
+            include _logo
+        .small-12.large-6.columns
+          h3.header__headline
+            | April 25 &amp; 26, 2015
+            br
+            | Hamburg
+
+      nav
+        .grid
+          .small-12.columns
+            ul.menu
+              li.menu__item
+                a.menu__item__link.menu__item__link--news(href='/news/') News
+              li.menu__item
+                a.menu__item__link.menu__item__link--contriboot(href='http://contriboot2015.jsunconf.eu/') Contribs &amp; Interests
+              li.menu__item
+                a.menu__item__link.menu__item__link--location(href='/location/') Location
+              li.menu__item
+                a.menu__item__link.menu__item__link--schedule(href='http://schedule.jsunconf.eu/') Schedule
+              li.menu__item
+                a.menu__item__link.menu__item__link--sponsoring(href='/sponsoring/') Sponsoring
+              li.menu__item
+                a.menu__item__link.menu__item__link--coc(href='/code-of-conduct/') CoC
+              li.menu__item
+                a.menu__item__link.menu__item__link--faq(href='/faq/') FAQ
+              li.menu__item
+                a.menu__item__link.menu__item__link--about(href='/about/') About
+
+    block content
+
+    block sponsors
+
+      .sponsors
+        .grid
+          .small-12.medium-10.medium-centered.large-8.large-centered.columns
+            - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
+            -   return item.index;
+            - }).compact().sortBy(function(item) {
+            -   return item.name;
+            - }).value();
+
+            - var goldSponsors = _.filter(sponsors, function(sponsor) {
+            -   return sponsor.metadata.type === 'gold';
+            - })
+
+            .row
+              .small-12.columns
+                .sponsor-list
+                  h2.sponsor-list__title Gold Sponsors
+                  each sponsor in goldSponsors
+                    .sponsor.text-center
+                      a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+                        img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+
+            - var silverSponsors = _.filter(sponsors, function(sponsor) {
+            -   return sponsor.metadata.type === 'silver';
+            - })
+
+            .row
+              .small-12.columns
+                .sponsor-list
+                  h2.sponsor-list__title Silver Sponsors
+                  each sponsor in silverSponsors
+                    .sponsor.text-center
+                      a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+                        img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+
+
+            - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
+            -   return sponsor.metadata.type === 'bronze';
+            - })
+
+            .row
+              .small-12.columns
+                .sponsor-list
+                  h2.sponsor-list__title Bronze Sponsors
+                  each sponsor in bronzeSponsors
+                    .sponsor.text-center
+                      a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+                        img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+
+    footer.footer
+      .grid.footer__row
+        .small-12.medium-8.large-6.small-centered.columns made with &hearts; and node.js
+      .grid.footer__row
+        .small-12.medium-8.large-6.small-centered.columns
+          a(href='http://twitter.com/jsunconf') @jsunconf
+          | &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          a(href='/imprint/') Imprint
+      .grid.footer__row
+        .small-12.medium-8.large-6.small-centered.columns
+          | We expect everybody to follow our&nbsp;
+          a(href='/code-of-conduct/') Code of Conduct
+          | .
+    // code for cheaper tickets at http://www.amiando.com/jsunconf2015.html: easteregg-jsunconf
+    script.
+      console.info('!! Have you spotted the easteregg? Enter the code after clicking on "Click here to enter a promotion code" at http://www.amiando.com/jsunconf2015.html !!');
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      //- ga('create', 'UA-44357704-3', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');

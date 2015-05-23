@@ -1,0 +1,44 @@
+extends layout
+
+block content
+  .grid
+    .small-12.columns
+      h1.intro-title
+        | JavaScript Unconference is your conference.
+        br
+        | You decide what will happen.
+
+  .news
+    .grid
+      .small-12.medium-10.medium-centered.large-8.large-centered.columns
+        h1 Latest News
+          a.icon-rss(href='/feed.xml') &nbsp;
+    .grid
+      - var articles = _.chain(contents.news._.directories).map(function(item) {
+      -   return item.index;
+      - }).compact().sortBy(function(item) {
+      -   return -item.date;
+      - }).filter(function(item, index) {
+      -   return index < 2;
+      - }).value();
+
+      each article in articles
+        article.news__article.small-12.medium-10.medium-centered.large-8.large-centered.columns
+          h2.news__article__title
+            small= moment(article.date).format('MMMM DD, YYYY')
+            br
+            a(href=article.url)= article.title
+          section.news__article__content!= article.intro
+
+    .grid
+      .more-link.small-12.medium-10.medium-centered.large-8.large-centered.columns
+        a(href='/news/', title='News') View all news »
+
+
+  .location
+    .grid
+      .small-12.medium-10.medium-centered.large-8.large-centered.columns
+        h1 Location
+        iframe(width='100%', height='500px', frameBorder='0', src='https://a.tiles.mapbox.com/v4/roka.j6l74hf8/attribution,zoompan.html?access_token=pk.eyJ1Ijoicm9rYSIsImEiOiJvR29QUEp3In0.xeb909L0DGJcmmprwfIwKA')
+      .more-link.small-12.medium-10.medium-centered.large-8.large-centered.columns
+        a(href='/location', title='Find out more') Find out more about the location »

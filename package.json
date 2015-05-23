@@ -1,0 +1,15 @@
+{
+  "name": "barcamperfurt.github.io",
+  "private": true,
+  "version": "0.1.0",
+  "repository": "https://github.com/barcamperfurt/barcamperfurt.github.io",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "moment": "^2.3.0",
+    "wintersmith-livereload": "^0.1.1",
+    "wintersmith-stylus": "^0.4.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

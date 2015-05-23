@@ -1,0 +1,11 @@
+{
+  "title": "About",
+  "template": "about.jade",
+  "category": "about",
+  "organizers": [
+    {
+      "twitter": "cainvommars",
+      "name": "Peter Willert"
+    }
+  ]
+}
