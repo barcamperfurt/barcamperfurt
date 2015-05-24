@@ -1,8 +1,8 @@
 {
-  "name": "barcamperfurt.github.io",
+  "name": "barcamperfurt",
   "private": true,
   "version": "0.1.0",
-  "repository": "https://github.com/barcamperfurt/barcamperfurt.github.io",
+  "repository": "https://github.com/barcamperfurt/barcamperfurt",
   "dependencies": {
     "lodash": "^2.4.1",
     "moment": "^2.3.0",
