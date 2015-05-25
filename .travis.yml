@@ -1,8 +1,14 @@
 language: node_js
 node_js:
-  - 0.10
+- 0.1
 before_script:
-  - npm install -g bower wintersmith
-  - npm install
-  - bower install
+- npm install -g bower wintersmith
+- npm install
+- bower install
 script: make deploy
+env:
+  global:
+    secure: C4fVDkzoM/go0eabd6LjkMoArCQNwUA/eLa9IkkAwkBfvBMRfnR0GFS5illrcRya9JX2ZizvtOzXKIfw/eavwDb0cbIqQgujx/VemvNIHyucO3BoNXdYB3nQEzCZs5XerW4r5MxoiRiNTPR5EGSiqEehqkZjlte7WdByGDeNZGuxdQVD1elk7v58PNS9AixM5Pv3Cz3d9wxSZ4TRiscE1eOqKmNVJC0EvssYyrr9+Yf/zbO0qraycKN3qHq9HJodQwZTjQzL267WSDuwyMd06roG5XPI/DCYqEALYtHo7eUQGwF0mrPRIfEI8CJTGZJHh+c8BkIm+fQrvqE7XvbVxaSUGNUCUzVTBeFybsatVtugryK4av+nDPC7noqqHryeLWRwIAiSDCmcl3bxFmKrjQUNsT2OCMkQ68EyHJcTBvyCAcCBrTc8d2LHTJNkfdFyswTzl6ZrYSsSpCfiEQnCVgRaZwVVFEmAFt1OfkKscXSQLpw6xJtuR1+lWxPtYxYyFmjovnY3ybvw3nfdw//ZHPdqHxmMfgkv/8GQrPBq6blOHYaujY0npRVael9HrGpz6k/W1g4nPcfBQ8GYaneEpmAC25z7/1CmWYkbow86tspXN7QTckMXT+OcJLmwcEoBXqKRs01gj8sRMtAmFuRa3ARh0rn5fxk10s1k3r5WnZc=
+after_script:
+  - git config credential.helper "store --file=.git/credentials"
+  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
