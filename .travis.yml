@@ -12,4 +12,6 @@ env:
 after_script:
 - git config credential.helper "store --file=.git/credentials"
 - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-- make deploy
+- ../barcamperfurt.github.io && git init . && git add . && git commit -nm \"Deployment\" && \
+  git push "git@github.com:barcamperfurt/barcamperfurt.github.io.git" master:master --force && rm -rf .git
+- rm -rf ../barcamperfurt.github.io
