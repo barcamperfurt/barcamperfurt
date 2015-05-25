@@ -1,5 +1,5 @@
 {
-  "output": "./build",
+  "output": "../barcamperfurt.github.io",
   "locals": {
     "url": "http://barcamperfurt.github.io/barcamperfurt/",
     "name": "barcamp erfurt",
