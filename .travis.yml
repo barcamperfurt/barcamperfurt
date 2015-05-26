@@ -7,10 +7,12 @@ before_script:
 - bower install
 script:
 - make build
-- git config --global user.email "peter@eyeem.com"
-- git config --global user.name "Peter Willert"
-- git config credential.helper "store --file=.git/credentials"
-- echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+- cd ../barcamperfurt.github.io && git init .
+- git add . && git commit -nm \"Deployment\" && \
+- git config user.email "peter@eyeem.com"
+- git config user.name "Peter Willert"
+- git push "git@github.com:barcamperfurt/barcamperfurt.github.io.git" master:master --force && rm -rf .git
+
 - make deploy
 env:
   global:
