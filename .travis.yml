@@ -8,7 +8,7 @@ before_script:
 script:
 - make build
 - cd ../barcamperfurt.github.io && git init .
-- git add . && git commit -nm \"Deployment\" && \
+- git add . && git commit -nm \"Deployment\"
 - git config user.email "peter@eyeem.com"
 - git config user.name "Peter Willert"
 - git push "git@github.com:barcamperfurt/barcamperfurt.github.io.git" master:master --force && rm -rf .git
