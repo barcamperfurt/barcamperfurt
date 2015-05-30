@@ -11,11 +11,11 @@ script:
 - make build
 - cd ../barcamperfurt.github.io
 - git init .
+- git remote add origin git@github.com:barcamperfurt/barcamperfurt.github.io.git
 - git add .
 - git commit -nm \"Deployment\"
-- git push "git@github.com:barcamperfurt/barcamperfurt.github.io.git" master:master --force
+- git push origin master --force
 - git config user.name
-
 - make deploy
 env:
   global:
