@@ -14,7 +14,7 @@ script:
 - git remote add origin git@github.com:barcamperfurt/barcamperfurt.github.io.git
 - git add .
 - git commit -nm \"Deployment\"
-- git push --force "https://${GH_TOKEN}@${GH_REF}"
+- git push --force https://${GH_TOKEN}@${GH_REF}
 - make deploy
 env:
   global:
