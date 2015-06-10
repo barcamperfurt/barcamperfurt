@@ -5,9 +5,9 @@ before_script:
 - npm install -g bower wintersmith
 - npm install
 - bower install
-script:
 - git config --global user.email "peter@eyeem.com"
 - git config --global user.name "Peter Willert"
+script:
 - make build
 - cd ../barcamperfurt.github.io
 - git init .
