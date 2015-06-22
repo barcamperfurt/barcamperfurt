@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+- 0.1
+before_script:
+- npm install -g bower wintersmith
+- npm install
+- bower install
+- git config --global user.email "peter@eyeem.com"
+- git config --global user.name "Peter Willert"
+script:
+- make build
+- cd ../barcamperfurt.github.io
+- git init .
+- git remote add origin git@github.com:barcamperfurt/barcamperfurt.github.io.git
+- git add .
+- git commit -nm \"Deployment\"
+- git push origin master --force
+- make deploy
+env:
+  global:
+    GH_REF: github.com/barcamperfurt/barcamperfurt.github.io.git
+    secure: BrFZG00xO8t387Qyo+nxfGxmAMcDetxB8oUxzqDZfb6xskmRXCWUfLjHMXyB5DM1zO6Ly/26QX/a+UydgGGIk1q5/gxBoyOxD+Q2eRn+CMXW6L1jADmiOiUGfEfqdTfpyk84ahc5jggn5p4aCK4UDX2GVMt2gpBP5RVWGg9UTdyCvD+BvAIuM24z2J+rmUDwrhJ+Glv1IfaSFGD4ze4zFgjIw6tIaqoBnYT1KNB00gVlCu/1CHgE4Ws/spMejmpsvSET5GvJlaPvWF7R2xTUN1DjuFMXVr40ewlm3YmZPP0YXRFUR6kJHV4l9U8SLeblNglWPyyt3Z9PDGQ/bsRGiefjjQbq5DQ2Zi9V+tFw3972VMBXe2vq5yZ3RBJRPkea3nH2hnEekjUn3mwCk3bahYXm/qtJaQFasKlkrgDDMCFlv1W8Y+3Op7TiKfGMZz7vGx4mOPivQUW5cRUgDyoe8qnbtc22pPdRXwyGnzGE3Hws7/cbls/XEN9XYtQfikxdFTNJq4btv7N+IL5sGbq1kFJa2GH5utDF2U3ezcBR0o+aaI1W5G7GwYAuK8AD/TWA0fTgajys7h2kvbZ0a7U5w2S00cX82O5MStU3JSrovjjJQrlDeOwcYv/eqN0+aG7bqsOoP8x3Ief2yw5F2dF6CS1aWpPF7rkVNauU+BOzuZg=
