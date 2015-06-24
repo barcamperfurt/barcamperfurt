@@ -9,6 +9,35 @@ All attendees, speakers, sponsors and volunteers at our conference are required 
 
 *tl;dr: Don’t be a Jerk*
 
+## Need Help?
+
+### Contact Robin or Tina
+
+Robin Drexler<br/>
+Twitter: [@RobinDrexler](https://twitter.com/RobinDrexler)<br/>
+Phone: +49 1520 9127095<br/>
+
+Tina Umlandt<br/>
+Twitter: [@tu404](https://twitter.com/tu404)<br/>
+Phone: +49 177 8979300
+
+### Contact Ola (not part of the JS Unconf team)
+
+Sometimes you might want to speak to or seek for help from a person which is
+not one of the main organizers.
+
+Ola Gasidlo<br/>
+Twitter: [@misprintedtype](https://twitter.com/misprintedtype)<br/>
+Phone: +49 176 96917923
+
+
+### Other helpful contacts
+
+ - Law enforcement: 110
+ - Local sexual assault hot line: +49 40 25 55 66
+ - Local emergency medical: 112
+ - Local non-emergency medical: +49 40 22 80 22
+ - Local taxi company: +49 40 211 211
 
 ## The Quick Version
 
