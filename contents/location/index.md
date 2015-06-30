@@ -10,7 +10,7 @@ category: location
 <br>
 Erich-Kästner-Straße 1<br>
 99094 Erfurt<br>
-<a href="https://www.google.de/maps/place/STUDIOPARK+KinderMedienZentrum/@50.962001,10.997024,15z/data=!4m2!3m1!1s0x0:0x21aa05e82e07edda" title="Get directions" target="_blank">Get directions »</a>
+<a href="https://www.google.de/maps/place/STUDIOPARK+KinderMedienZentrum/@50.962001,10.997024,15z/data=!4m2!3m1!1s0x0:0x21aa05e82e07edda" title="Zu Google Maps" target="_blank">Zu Google Maps »</a>
 
 <div class="location__partybox">
   <h2>Friday Party:</h2>
