@@ -25,7 +25,7 @@ block content
           h2 Organizers:
 
           .grid.about
-            each organizer in page.metadata.organizers
+            each organizer in page.metadata.organizers1
               .small-6.large-4.columns
                 figure
                     a.about__link(href='https://twitter.com/'+organizer.twitter, target='_blank')
@@ -35,6 +35,18 @@ block content
                         = organizer.name
                         |  &ndash;
                         = "@" + organizer.twitter
+          .grid.about
+            each organizer in page.metadata.organizers2
+              .small-6.large-4.columns
+                figure
+                    a.about__link(href='https://twitter.com/'+organizer.twitter, target='_blank')
+                      img.about__link__image(src='/images/'+organizer.twitter+'.jpg', width='305', height='305')
+
+                      figcaption.about__link__image__caption
+                        = organizer.name
+                        |  &ndash;
+                        = "@" + organizer.twitter
+
 
           h2 Special thanks:
           p The JS Unconf would not be possible without the helping hands of these nice people:

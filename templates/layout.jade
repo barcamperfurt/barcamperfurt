@@ -46,6 +46,21 @@ html(lang='en')
 
   body.site(class=page.metadata.category ? 'site--' + page.metadata.category : '')
     header.header
+      nav
+        .grid
+          .small-12.columns
+            ul.menu
+              li.menu__item
+                a.menu__item__link.menu__item__link--news(href='/news/') News
+              li.menu__item
+                a.menu__item__link.menu__item__link--location(href='/location/') Location
+              li.menu__item
+                a.menu__item__link.menu__item__link--sponsoring(href='/sponsoring/') Sponsoring
+              li.menu__item
+                a.menu__item__link.menu__item__link--faq(href='/faq/') FAQ
+              li.menu__item
+                a.menu__item__link.menu__item__link--about(href='/about/') About
+
       .grid
         .small-12.large-6.columns
           a(href='/')
@@ -56,28 +71,6 @@ html(lang='en')
             br
             | KinderMedienZentrum Erfurt
 
-      nav
-        .grid
-          .small-12.columns
-            ul.menu
-              li.menu__item
-                a.menu__item__link.menu__item__link--news(href='/news/') News
-              //- li.menu__item
-              //-   a.menu__item__link.menu__item__link--contriboot(href='http://contriboot2015.jsunconf.eu/') Contribs &amp; Interests
-              li.menu__item
-                a.menu__item__link.menu__item__link--location(href='/location/') Location
-              //li.menu__item
-              //  a.menu__item__link.menu__item__link--location(href='http://twitterwall.kreuz.es/') Twitter
-              //- li.menu__item
-              //-   a.menu__item__link.menu__item__link--schedule(href='http://schedule.jsunconf.eu/') Schedule
-              li.menu__item
-                a.menu__item__link.menu__item__link--sponsoring(href='/sponsoring/') Sponsoring
-              //li.menu__item
-              //  a.menu__item__link.menu__item__link--coc(href='/code-of-conduct/') CoC
-              li.menu__item
-                a.menu__item__link.menu__item__link--faq(href='/faq/') FAQ
-              li.menu__item
-                a.menu__item__link.menu__item__link--about(href='/about/') About
 
     block content
 

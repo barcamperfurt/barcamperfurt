@@ -2,7 +2,7 @@
   "title": "About",
   "template": "about.jade",
   "category": "about",
-  "organizers": [
+  "organizers1": [
     {
       "twitter": "jeannetterische",
       "name": "Jeannette Rische"
@@ -14,7 +14,9 @@
     {
       "twitter": "saschawech",
       "name": "Sascha Wechsung"
-    },
+    }
+  ],
+  "organizers2": [
     {
       "twitter": "inselmomente",
       "name": "Sebastian Kratz"
