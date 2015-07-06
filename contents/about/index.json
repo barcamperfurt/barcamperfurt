@@ -4,6 +4,10 @@
   "category": "about",
   "organizers": [
     {
+      "twitter": "jeannetterische",
+      "name": "Jeannette Rische"
+    },
+    {
       "twitter": "myrbel",
       "name": "Martin Fache"
     },
