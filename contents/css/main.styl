@@ -71,7 +71,10 @@ hr
   color: white
   position: relative
   &__logo
-    height: 150px !important
+    height: 50px !important
+    @media (min-width: 25em) {
+      height: 150px !important
+    }
     margin: 2em 0
     transition: all .25s
     &:hover, &:focus

@@ -1,29 +1,30 @@
 ---
-title: Code of Conduct
+title: Verhaltensregeln auf der Konferenz
 template: simple.jade
 ---
 
-## Code of Conduct
+Alle Besucher_innen, Redner_innen, Sponsor_innen und Freiwilligen auf dieser Konferenz werden aufgefordert, sich an folgende Verhaltensregeln zu halten. Diese werden vom Personal auf der gesamten Konferenz durchgesetzt. Wir erbitten uns die Mitarbeit aller Anwesenden, um diese Konferenz zu einem sicheren und angenehmen Ort für alle zu machen.
 
-All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.
+# Brauchst du Hilfe?
 
-*tl;dr: Don’t be a Jerk*
+Du hast alle Kontaktmöglichkeiten vorab per Email erhalten.
 
+# Die Kurzfassung
 
-## The Quick Version
+Wir möchten unseren Teilnehmer_innen eine belästigungsfreie Konferenzerfahrung bieten, unabhängig von Geschlecht, sexueller Orientierung, Behinderung, Aussehen, Körperbau, Ethnizität oder Religionszugehörigkeit (oder Nichtvorhandensein einer solchen). Wir tolerieren keinerlei Belästigung von Konferenzbesucher_innen. Sexualisierte Sprache und Darstellungen sind auf der Konferenz unerwünscht. Dies umfasst den Veranstaltungsort, die Vorträge, Workshops und Feten, sowie Twitter und andere Medien. Teilnehmer_innen, die gegen diese Regeln verstoßen, müssen mit Sanktionen durch das Veranstaltungspersonal rechnen, inklusive eines Verweises der Konferenz ohne Anspruch auf Rückerstattung des Eintrittspreises.
 
-Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference *without a refund* at the discretion of the conference organisers.
+# Die längere Fassung
 
-## The Less Quick Version
+„Belästigung“ umfasst unter anderem beleidigende Aussagen über Geschlecht, sexuelle Orientierung, Behinderung, körperliches Aussehen wie Körperbau, Ethnizität oder Religionszugehörigkeit (oder Nichtvorhandensein einer solchen), sexualisierende Darstellungen in öffentlichen Räumen, bewusste Einschüchterung, Stalking, Verfolgung, unerwünschtes Fotografieren oder Aufnehmen, wiederholte Störung von Vorträgen und anderen Veranstaltungen, unerwünschten körperlichen Kontakt und unerwünschte sexuelle Aufmerksamkeit.
 
-Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+Teilnehmer_innen, die wegen solchen Verhaltens ermahnt werden, haben dieses sofort einzustellen.
 
-Participants asked to stop any harassing behavior are expected to comply immediately.
+Diese Verhaltensregeln gelten auch für Sponsor_innen. Insbesondere sollten Sponsor_innen darauf achten, dass sie keine sexualisierenden Bilder, Aktivitäten oder andere sexualisierende Werbemittel einsetzen. Standpersonal (auch Freiwillige) sollten darauf achten, keine sexualisierende Kleidung, Uniformen oder Kostüme zu tragen, oder sonstwie ein sexualisiertes Umfeld zu gestalten.
 
-Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
+Sollten Teilnehmer_innen durch belästigendes Verhalten auffallen, steht es dem Konferenzpersonal frei, entsprechende Maßnahmen zu ergreifen, die es für angemessen hält. Dies schließt Ermahnungen bis hin zum Verweis von der Konferenz ein. Im Falle eines Verweises besteht kein Anspruch auf Rückerstattung des Eintrittspreises.
 
-If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.
+Solltest du dich belästigt fühlen oder mitbekommen, dass jemand anders belästigt wird oder sonstige Probleme auftreten, wende dich bitte sofort an ein Mitglied des Veranstaltungspersonals. Diese sind an ihren entsprechend markierten T-Shirts schnell zu erkennen.
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they&#39;ll be wearing branded t-shirts.
+Mitglieder des Konferenzpersonals können euch bei allen Problemen helfen. Dies schließt Kontakt mit dem Security-Personal des Veranstaltungsorts und/oder den Behörden mit ein. Darüber hinaus können wir Begleitungen vermitteln und auch weitere Maßnahmen ergreifen, um Belästigten einen sicheren und angenehmen Besuch der Konferenz zu ermöglichen. Wir schätzen deine Anwesenheit sehr.
 
-Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
+Wir erwarten von allen Teilnehmern die Einhaltung dieser Regeln auf der gesamten Konferenz, den Workshops und auf allen weiteren Zusammenkünften im Zusammenhang mit dieser Konferenz.
