@@ -43,7 +43,7 @@ block content
       each article in articles
         article.news__article.small-12.medium-10.medium-centered.large-8.large-centered.columns
           h2.news__article__title
-            small= moment(article.date).format('MMMM DD, YYYY')
+            small= moment(article.date).locale('de').format('DD. MMMM YYYY')
             br
             a(href=article.url)= article.title
           section.news__article__content!= article.intro

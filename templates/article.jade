@@ -10,7 +10,7 @@ block content
       article.article
         header.article__header
           h1.article__header__title
-            small= moment(page.date).format('MMMM DD, YYYY')
+            small= moment(page.date).locale('de').format('DD. MMMM YYYY')
             br
             != page.title
 
