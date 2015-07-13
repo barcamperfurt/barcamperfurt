@@ -11,8 +11,8 @@ $grey-very-light = #f5f7fa
 $grey-light = #e6e9ed
 $grey-dark = #434a54
 
-$not-blue = #20AAE2
-$a-red = #E14641
+$not-blue = #5FA7E1
+$a-red = #C6463F
 
 *, *:before, *:after
   box-sizing: border-box
@@ -42,12 +42,10 @@ a
 
 h1
   text-align: center
-  margin: 1.5em 15%
+  margin: 1.5em 15% .5em
   line-height: 1.666
-  border-bottom: 1px solid $grey-light
-  font-family: Lato, sans-serif
-  font-weight: 300
-  font-style: normal
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px
 
 h3
   margin: 1.5em 0 0 0
@@ -60,6 +58,10 @@ small
 
 img
   vertical-align: bottom
+
+p
+  font-size: 18px
+  font-weight: 300
 
 hr
   font-size: 1rem
@@ -155,6 +157,7 @@ hr
     display: table
 
     p
+      font-weight: normal
       display: table-cell
       vertical-align: middle
 
@@ -172,12 +175,19 @@ hr
 
 .more-link
   text-align: center
-  margin-top: 1em
+  margin-top: 2em
   margin-bottom: 1em
   a
-    border: 1px solid $a-red
+    border: 2px solid $a-red
     border-radius: 2px
-    padding: 8px 12px 5px
+    font-size: 18px
+    padding: 14px 20px
+    border-radius: 3px
+    &:hover
+      text-decoration: none
+      color: white
+      background: $a-red
+
 
 .sponsoring
   &__image
@@ -222,10 +232,20 @@ hr
 
   .social-icon
     display: inline-block
-    border: 1px solid $grey
+    border: 1px solid $a-red
     width: 30px
     height: 30px
-    text-decoration: none
+    overflow: hidden;
+
+    img
+      height: 80%
+      vertical-align: baseline;
+      padding-top: 5px;
+      padding-left: 6px;
+      display: block
+      svg
+        fill: #efefef
+
     &:hover, &:focus
       border-color: $grey-dark
 
