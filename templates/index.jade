@@ -5,18 +5,24 @@ block content
   .fancy-background
     .grid.menu-subline
       .small-12.medium-4.columns
-        .icon.date
-          | 24.-25.10.2015
+        .menu-subline-item
+          img(src='/images/ico_calendar.svg')
+          p
+            | 24.-25.10.2015
       .small-12.medium-4.columns
-        .icon.time
-          | 9:00-17:00
+        .menu-subline-item
+          img(src='/images/ico_clock.svg')
+          p
+            | 9:00-17:00
       .small-12.medium-4.columns
-        .icon.place
-          | StudioPark KinderMedienZentrum
-          br
-          | Erich-Kästner-Strasse 1
-          br
-          | 99094 Erfur
+        .menu-subline-item
+          img(src='/images/ico_location.svg')
+          p
+            | StudioPark KinderMedienZentrum
+            br
+            | Erich-Kästner-Strasse 1
+            br
+            | 99094 Erfur
 
   .fancy-background
     .grid
@@ -62,5 +68,6 @@ block content
         a(href='/location', title='Mehr zur Location') Mehr zur Location
 
   .fancy-background.video
-    iframe.small-centered( width='560', height='315', frameBorder='0', src='https://www.youtube.com/embed/dF32PEFmIzE' allowfullscreen)
+    .video-container
+      iframe.small-centered( width='560', height='315', frameBorder='0', src='https://www.youtube.com/embed/dF32PEFmIzE' allowfullscreen)
 
