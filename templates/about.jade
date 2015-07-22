@@ -51,4 +51,14 @@ block content
           h2 Unterstützer:
           p Das BarCamp "Jugend & Medien" wäre nicht möglich ohne die Unterstützung der folgenden Personen. Unseren herzlichsten Dank an euch!
 
-          p Add nice people here :>
+          .grid.about
+            each supporter in page.metadata.supporter1
+              .small-6.large-4.columns
+                figure
+                    a.about__link(href='https://twitter.com/'+supporter.twitter, target='_blank')
+                      img.about__link__image(src='/images/'+supporter.twitter+'.jpg', width='305', height='305')
+
+                      figcaption.about__link__image__caption
+                        = supporter.name
+                        |  &ndash;
+                        = "@" + supporter.twitter
