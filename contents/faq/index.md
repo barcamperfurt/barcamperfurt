@@ -22,10 +22,12 @@ category: faq
 Ein BarCamp findet weder in einer Bar statt, noch wird dabei getrunken.
 </p>
 
+<iframe width="420" height="315" src="https://www.youtube.com/embed/EtTcFEsNARc" frameborder="0" allowfullscreen></iframe>
+
 <h2 id="teilnehmer">Bin richtig auf der Veranstaltung? Wer kommt da hin?</h2>
 <p>
 Kurze Antwort: Ja, Du bist richtig bei uns, wenn Dich das Thema interessiert.
-Lange Antwort: Unsere Veranstaltung ist ein so genanntes Themen-Canmp. Alle Teilnehmer interessieren sich für das gleiche Thema, kommen aber aus den verschiedensten Fachrichtungen. Programmierer, Pädagogen, Designer, Marketing Manager, Redakteure ... 
+Lange Antwort: Unsere Veranstaltung ist ein so genanntes Themen-Canmp. Alle Teilnehmer interessieren sich für das gleiche Thema, kommen aber aus den verschiedensten Fachrichtungen. Programmierer, Pädagogen, Designer, Marketing Manager, Redakteure ...
 </p>
 
 <h2 id="themen">Welche Vorträge finden statt?</h2>
