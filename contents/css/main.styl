@@ -302,28 +302,62 @@ hr
   width: 300px
   margin-bottom: 30px
 
-@media (max-width: 560px) {
-  .video-container {
+@media (max-width: 560px)
+  .video-container
     position: relative
     padding-bottom: 56.25%
     padding-top: 35px
     height: 0
     overflow: hidden
 
-    iframe {
+    iframe
       position: absolute;
       top:0
       left: 0
       width: 100%
       height: 100%
-    }
-  }
-}
+
 
 .sponsoringoptions
   text-align: center
-  .row:nth-child(even){
-    background: gray
-  }
+  .grid:nth-child(odd)
+    background: #f1f1f1
+  .grid:first-child
+    background: #ffffff
+  .small-6
+    text-align: left
+  .sponsoringheader
+    p:first-child
+      height: 82px
+    .small-2
+      padding: 4px
+      font-weight: bold
+      p
+        color: #ffffff
+        font-weight: bold
+        padding: 1em 1em
+        margin: 0
+      div
+        padding: 12px
 
+    .packagebasicsmall
+      p
+        background: $not-blue
+      div
+        background: #f1f1f1
+
+    .packagebasicbig
+      p
+        background: $not-blue
+      div
+        background: #e1e1e1
+
+    .packagepremium
+      p
+        background: $a-red
+      div
+        background: #cdcdcd
+
+  :not(.sponsoringheader) .small-2 p
+    padding-top: 16px
 
