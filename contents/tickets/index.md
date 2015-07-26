@@ -1,6 +1,7 @@
 ---
 title: Tickets
 template: simple.jade
+category: tickets
 ---
 ##Preise
 Die gesamte Veranstaltung ist für jeden angemeldeten Teilnehmer kostenlos.
