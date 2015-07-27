@@ -1,5 +1,5 @@
 ---
-title: Location
+title: News
 template: news.jade
 category: news
 ---

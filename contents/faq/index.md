@@ -6,7 +6,7 @@ category: faq
 
 <ul>
   <li><a href="#was-ist-barcamp">Was ist ein BarCamp?</a></li>
-  <li><a href="#teilnehmer">Bin richtig auf der Veranstaltung? Wer kommt da hin?</a></li>
+  <li><a href="#teilnehmer">Bin ich richtig auf der Veranstaltung? Wer kommt da hin?</a></li>
   <li><a href="#themen">Welche Vorträge finden statt?</a></li>
   <li><a href="#contrib">Ich will unbedingt einen Vortrag halten! Wo kann ich mich melden?</a></li>
   <li><a href="#kostenlos">Was kostet die Teilnahme?</a></li>
@@ -22,36 +22,36 @@ category: faq
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/EtTcFEsNARc" frameborder="0" allowfullscreen></iframe>
 
-<h2 id="teilnehmer">Bin richtig auf der Veranstaltung? Wer kommt da hin?</h2>
+<h2 id="teilnehmer">Bin ich richtig auf der Veranstaltung? Wer kommt da hin?</h2>
 <p>
-Kurze Antwort: Ja, Du bist richtig bei uns, wenn Dich das Thema interessiert.
-Lange Antwort: Unsere Veranstaltung ist ein so genanntes Themen-Canmp. Alle Teilnehmer interessieren sich für das gleiche Thema, kommen aber aus den verschiedensten Fachrichtungen. Programmierer, Pädagogen, Designer, Marketing Manager, Redakteure ...
+Kurze Antwort: Ja, du bist richtig bei uns, wenn dich das Thema interessiert.
+Lange Antwort: Unsere Veranstaltung ist ein so genanntes Themen-Camp. Alle Teilnehmer interessieren sich für das gleiche Thema, kommen aber aus den verschiedensten Fachrichtungen. Programmierer, Pädagogen, Designer, Marketing Manager, Redakteure, Maschinenbauer ... Solange du dich einbringst und neugierig bist, passt du zu uns!
 </p>
 
 <h2 id="themen">Welche Vorträge finden statt?</h2>
 <p>
-Ein BarCamp ist eine offene Konferenz. Vorträge werden zu Beginn der Veranstaltung vorgestellt und finden statt, wenn genug Teilnehmer interessiert sind. Das nennt man Session Planning. Eine Session muss aber gar kein Vortrag sein, sondern kann auch dazu dienen, dass Du ein Problem schilderst oder eine Frage stellst, und mit interessierten Teilnehmern einen kurzen Workshop dazu machst.
+Ein BarCamp ist eine offene Konferenz. Vorträge werden zu Beginn der Veranstaltung vorgestellt und finden statt, wenn genug Teilnehmer interessiert sind. Das nennt man Session Planning. Eine Session muss aber gar kein Vortrag sein, sondern kann auch dazu dienen, dass du ein Problem schilderst oder eine Frage stellst, und mit interessierten Teilnehmern einen kurzen Workshop dazu machst.
 </p>
 
 <h2 id="contrib">Ich will unbedingt einen Vortrag halten! Wo kann ich mich melden?</h2>
 <p>
-Wir werden ein Formular bereit stellen, mit dem Du auch jetzt schon Vorträge einreichen und vorstellen kannst. Solange schreibe einfach eine E-Mail an <a href="mailto:info@barcamp-erfurt.de">info@barcamp-erfurt.de</a>
+Wir werden ein Formular bereit stellen, mit dem du auch jetzt schon Vorträge einreichen und vorstellen kannst. Solange schreibe einfach eine E-Mail an <a href="mailto:info@barcamp-erfurt.de">info@barcamp-erfurt.de</a>
 </p>
 
 <h2 id="kostenlos">Was kostet die Teilnahme?</h2>
 <p>
-Die Veranstaltung ist für Teilnehmer absolut kostenlos. Außerdem wird Dir kostenlos Frühstück, ein warmes Mittagessen und warme und kalte Getränke bereit gestellt. Das ist nur dank unserer großartigen <a href="/sponsoring">Sponsoren</a> möglich.
+Die Veranstaltung ist für Teilnehmer absolut kostenlos. Außerdem werden dir kostenlos Frühstück, ein warmes Mittagessen und warme und kalte Getränke bereit gestellt. Das ist nur dank unserer großartigen <a href="/sponsoring">Sponsoren</a> möglich.
 </p>
 
 <h2 id="sponsor-werden">Wie kann man die Veranstaltung unterstützen? Wie werde ich Sponsor?</h2>
 <p>
-Wende Dich einfach an <a href="mailto:peter@barcamp-erfurt.de"> Peter</a>. Die Veranstalter und Teilnehmer danken Dir herzlichst!
+Wende dich einfach an <a href="mailto:peter@barcamp-erfurt.de"> Peter</a>. Die Veranstalter und Teilnehmer danken dir herzlichst!
 </p>
 
 <h2 id="ticket">Wie bekomme ich ein Ticket?</h2>
 <p>
 Wir werden die Anmeldung demnächst eröffnen. Wir bitten alle, sich auch dort anzumelden. Dennoch kann zu einem BarCamp jeder -auch spontan- erscheinen, solange es die Location zulässt.
-Allerdings nur wenn Du angemeldet bist, bekommst du alle wichtigen Informationen und sicherst Dir ein T-Shirt in der richtigen Größe und eine kostenlose warme Mahlzeit.
+Allerdings nur wenn dDu angemeldet bist, bekommst du alle wichtigen Informationen und sicherst dir ein T-Shirt in der richtigen Größe und eine kostenlose warme Mahlzeit.
 </p>
 
 <h2 id="mixxt">Ich bin vom letzten Jahr noch in der mixxt-Community. Melde ich mich da an?</h2>

@@ -7,11 +7,11 @@ Alle Besucher_innen, Redner_innen, Sponsor_innen und Freiwilligen auf dieser Kon
 
 # Brauchst du Hilfe?
 
-Du hast alle Kontaktmöglichkeiten vorab per Email erhalten.
+Die Veranstalter stellen sich zu Beginn jedes Veranstaltungstages vor und sind jederzeit für dich ansprechbar. Oder schreib uns eine <a href="mailto:info@barcamp-erfurt.de">Mail</a> oder melde dich bei <a href="https://twitter.com/BarCampErfurt">Twitter</a> oder <a href="https://de-de.facebook.com/barcamperfurt">Facebook</a>.
 
 # Die Kurzfassung
 
-Wir möchten unseren Teilnehmer_innen eine belästigungsfreie Konferenzerfahrung bieten, unabhängig von Geschlecht, sexueller Orientierung, Behinderung, Aussehen, Körperbau, Ethnizität oder Religionszugehörigkeit (oder Nichtvorhandensein einer solchen). Wir tolerieren keinerlei Belästigung von Konferenzbesucher_innen. Sexualisierte Sprache und Darstellungen sind auf der Konferenz unerwünscht. Dies umfasst den Veranstaltungsort, die Vorträge, Workshops und Feten, sowie Twitter und andere Medien. Teilnehmer_innen, die gegen diese Regeln verstoßen, müssen mit Sanktionen durch das Veranstaltungspersonal rechnen, inklusive eines Verweises der Konferenz ohne Anspruch auf Rückerstattung des Eintrittspreises.
+Wir möchten unseren Teilnehmer_innen eine belästigungsfreie Konferenzerfahrung bieten, unabhängig von Geschlecht, sexueller Orientierung, Behinderung, Aussehen, Körperbau, Ethnizität oder Religionszugehörigkeit (oder Nichtvorhandensein einer solchen). Wir tolerieren keinerlei Belästigung von Konferenzbesucher_innen. Sexualisierte Sprache und Darstellungen sind auf der Konferenz unerwünscht. Dies umfasst den Veranstaltungsort, die Vorträge, Workshops und Feten, sowie Twitter und andere Medien. Teilnehmer_innen, die gegen diese Regeln verstoßen, müssen mit Sanktionen durch das Veranstaltungspersonal rechnen, inklusive eines Verweises der Konferenz ohne Anspruch auf Aufwandsentschädigungen oder Ähnliches.
 
 # Die längere Fassung
 
@@ -21,7 +21,7 @@ Teilnehmer_innen, die wegen solchen Verhaltens ermahnt werden, haben dieses sofo
 
 Diese Verhaltensregeln gelten auch für Sponsor_innen. Insbesondere sollten Sponsor_innen darauf achten, dass sie keine sexualisierenden Bilder, Aktivitäten oder andere sexualisierende Werbemittel einsetzen. Standpersonal (auch Freiwillige) sollten darauf achten, keine sexualisierende Kleidung, Uniformen oder Kostüme zu tragen, oder sonstwie ein sexualisiertes Umfeld zu gestalten.
 
-Sollten Teilnehmer_innen durch belästigendes Verhalten auffallen, steht es dem Konferenzpersonal frei, entsprechende Maßnahmen zu ergreifen, die es für angemessen hält. Dies schließt Ermahnungen bis hin zum Verweis von der Konferenz ein. Im Falle eines Verweises besteht kein Anspruch auf Rückerstattung des Eintrittspreises.
+Sollten Teilnehmer_innen durch belästigendes Verhalten auffallen, steht es dem Konferenzpersonal frei, entsprechende Maßnahmen zu ergreifen, die es für angemessen hält. Dies schließt Ermahnungen bis hin zum Verweis von der Konferenz ein. Im Falle eines Verweises besteht kein Anspruch auf Aufwandsentschädigungen oder Ähnliches.
 
 Solltest du dich belästigt fühlen oder mitbekommen, dass jemand anders belästigt wird oder sonstige Probleme auftreten, wende dich bitte sofort an ein Mitglied des Veranstaltungspersonals. Diese sind an ihren entsprechend markierten T-Shirts schnell zu erkennen.
 

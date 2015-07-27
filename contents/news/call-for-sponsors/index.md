@@ -8,4 +8,4 @@ Ohne eure Unterstützung wäre das BCEF eine Schuldenfalle. Alle Organisatoren a
 
 Ihr mögt das BarCamp und wollt uns unterstützen? Ihr kennt einen möglichen Sponsor für uns? Egal ob Geld- oder Sachspende: Schreibt eine Mail an <a href="mailto:peter@barcamp-erfurt.de">Peter</a> und lasst es uns wissen.
 
-Und wie immer: Auf Twitter findet ihr uns unter <a href="https://twitter.com/BarCampErfurt">@BarCampErfurt</a>.
+Und wie immer: Auf Twitter findet ihr uns unter <a href="https://twitter.com/BarCampErfurt" TARGET="_blank">@BarCampErfurt</a>.

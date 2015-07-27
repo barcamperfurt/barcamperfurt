@@ -38,20 +38,20 @@ Erich-Kästner-Straße 1<br>
 
 **Anreise mit der Bahn**
 
-Ab Hauptbahnhof aus gehts mit den Straßenbahnlinien 3,5 oder 6 eine Station in Richtung Anger/Zentrum oder ihr lauft die Bahnhofstraße entlang in Richtung Zentrum.
-Vom Anger fährt die Linie 4 in Richtung Bindersleben/Flughafen. An der Haltestelle "Gothaer PLatz" müsst ihr in die Linie 2 Richtung Messe umsetigen. Mi der Linie 2 fahrt ihr bis Haltestelle MDR/Kinderkanal. Gegenüber der Haltestelle, auf der anderen Straßenseite seht ihr das Gebäude vom MDR/Kinderkanal direkt vor euch. Zum KinderMedienzentrum lauft ihr links am MDR/Kika Gebäude vorbei, über den Parkplatz des KinderMedienZentrums direkt auf den Empfang zu.
+Vom Hauptbahnhof aus gehts mit den Straßenbahnlinien 3, 5 oder 6 eine Station in Richtung Anger/Zentrum oder ihr lauft die Bahnhofstraße entlang in Richtung Zentrum.
+Vom Anger fährt die Linie 4 in Richtung Bindersleben/Flughafen. An der Haltestelle "Gothaer Platz" müsst ihr in die Linie 2 Richtung Messe umsteigen. Mit der Linie 2 fahrt ihr bis Haltestelle MDR/Kinderkanal. Gegenüber der Haltestelle, auf der anderen Straßenseite seht ihr das Gebäude vom MDR/Kinderkanal direkt vor euch. Zum KinderMedienzentrum lauft ihr links am MDR/Kika Gebäude vorbei, über den Parkplatz des KinderMedienZentrums direkt auf den Empfang zu.
 
-<a href="http://www.evag-erfurt-netzplan.de/">Liniennetzplan des Erfurter ÖPNV</a>
+<a href="http://www.evag-erfurt-netzplan.de/" target="_blank">Liniennetzplan des Erfurter ÖPNV</a>
 
  
 
 **Anreise mit dem Auto**
 
-Wer ein Navi hat kann sich hier an orientieren:
+Einfach in eure Maps-App oder Navi folgende Adresse eingeben:
 Erich-Kästner-Straße 1
 99094 Erfurt
 
-Wir dürfen dieses Jahr die Parkplätze des KinderMedienzentrum benutzen. Folgt einfach den Schildern zum Kindermedienzentrum. An der Schranke wählt bitte die 393, dann wird euch aufgemacht.
+Um direkt auf dem Gelände zu parken, wählt bitte an der Schranke die 393 und es wird euch aufgemacht.
 
 Von der Autobahn kommend:
 Ihr fahrt auf der A4 bis zum Autobahnkreuz Erfurt, fahrt auf die A71 und  folgt ab da an der Ausschilderung "Messe". Vor der großen Satellitenschüssel biegt ihr rechts ab. Dann folgt ihr der Ausschilderung "Kindermedienzentrum".
