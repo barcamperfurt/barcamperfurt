@@ -46,29 +46,30 @@ html(lang='de')
 
   body.site(class=page.metadata.category ? 'site--' + page.metadata.category : '')
     header.header
-      nav
+      .header-wrapper
+        nav
+          .grid
+            .small-12.columns
+              ul.menu
+                li.menu__item
+                  a.menu__item__link.menu__item__link--start(href='/') Start
+                li.menu__item
+                  a.menu__item__link.menu__item__link--news(href='/news/') News
+                li.menu__item
+                  a.menu__item__link.menu__item__link--location(href='/location/') Location
+                li.menu__item
+                  a.menu__item__link.menu__item__link--tickets(href='/tickets/') Tickets
+                li.menu__item
+                  a.menu__item__link.menu__item__link--sponsoring(href='/sponsoring/') Sponsoring
+                li.menu__item
+                  a.menu__item__link.menu__item__link--faq(href='/faq/') FAQ
+                li.menu__item
+                  a.menu__item__link.menu__item__link--about(href='/about/') About
+
         .grid
           .small-12.columns
-            ul.menu
-              li.menu__item
-                a.menu__item__link.menu__item__link--start(href='/') Start
-              li.menu__item
-                a.menu__item__link.menu__item__link--news(href='/news/') News
-              li.menu__item
-                a.menu__item__link.menu__item__link--location(href='/location/') Location
-              li.menu__item
-                a.menu__item__link.menu__item__link--tickets(href='/tickets/') Tickets
-              li.menu__item
-                a.menu__item__link.menu__item__link--sponsoring(href='/sponsoring/') Sponsoring
-              li.menu__item
-                a.menu__item__link.menu__item__link--faq(href='/faq/') FAQ
-              li.menu__item
-                a.menu__item__link.menu__item__link--about(href='/about/') About
-
-      .grid
-        .small-12.columns
-          a(href='/')
-            img.header__logo(src='/images/logo.svg')
+            a(href='/')
+              img.header__logo(src='/images/logo.svg')
 
     block content
 
