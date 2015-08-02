@@ -1,5 +1,7 @@
 ---
 title: Locations
+changefreq: weekly
+priority: 0.8
 template: simple.jade
 category: location
 ---
@@ -43,7 +45,7 @@ Vom Anger fährt die Linie 4 in Richtung Bindersleben/Flughafen. An der Halteste
 
 <a href="http://www.evag-erfurt-netzplan.de/" target="_blank">Liniennetzplan des Erfurter ÖPNV</a>
 
- 
+
 
 **Anreise mit dem Auto**
 

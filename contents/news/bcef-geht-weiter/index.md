@@ -1,6 +1,8 @@
 ---
 title: Es geht weiter! BarCamp "Jugend & Medien" auch 2015
 date: 2015-05-06
+changefreq: weekly
+priority: 0.9
 template: article.jade
 ---
 

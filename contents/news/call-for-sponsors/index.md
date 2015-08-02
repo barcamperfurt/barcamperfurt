@@ -1,6 +1,8 @@
 ---
 title: Call For Sponsors
 date: 2015-06-03
+changefreq: weekly
+priority: 0.9
 template: article.jade
 ---
 

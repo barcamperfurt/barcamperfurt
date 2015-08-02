@@ -1,5 +1,7 @@
 ---
 title: Häufig gestellte Fragen
+changefreq: weekly
+priority: 0.8
 template: simple.jade
 category: faq
 ---

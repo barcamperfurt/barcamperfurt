@@ -1,6 +1,8 @@
 ---
 title: Tickets
 template: simple.jade
+changefreq: weekly
+priority: 0.8
 category: tickets
 ---
 ##Preise

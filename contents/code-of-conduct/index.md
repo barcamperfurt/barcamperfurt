@@ -1,5 +1,7 @@
 ---
 title: Verhaltensregeln auf der Konferenz
+changefreq: weekly
+priority: 0.7
 template: simple.jade
 ---
 

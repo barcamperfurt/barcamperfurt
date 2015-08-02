@@ -1,6 +1,8 @@
 ---
 title: Presse
 template: simple.jade
+changefreq: weekly
+priority: 0.7
 category: presse
 ---
 
