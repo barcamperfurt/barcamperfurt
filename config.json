@@ -11,7 +11,8 @@
     "./node_modules/wintersmith-stylus/",
     "wintersmith-livereload",
     "wintersmith-contents",
-    "wintersmith-sitemap"
+    "wintersmith-sitemap",
+    "wintersmith-seo"
   ],
   "require": {
     "moment": "moment",
