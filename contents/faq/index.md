@@ -22,7 +22,9 @@ category: faq
 ... eine seit 2005 in der IT- und Medienwelt etablierte offene Tagung mit Workshops, über die am Anfang jedes Veranstaltungstages von den Teilnehmern abgestimmt wird. Somit ist sichergestellt, dass den Teilnehmern genau die Themen angeboten werden, die für sie am interessantesten sind. Es gibt keine Unterscheidung zwischen Referenten und Zuhörern. Jeder Teilnehmer kann und soll sich einbringen.
 </p>
 
+<div class="video-container">
 <iframe width="420" height="315" src="https://www.youtube.com/embed/EtTcFEsNARc" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <h2 id="teilnehmer">Bin ich richtig auf der Veranstaltung? Wer kommt da hin?</h2>
 <p>
