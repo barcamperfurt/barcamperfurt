@@ -9,32 +9,34 @@ category: location
 ## BarCamp:
 
 **STUDIOPARK KinderMedienZentrum Erfurt**
-<br>
-Erich-Kästner-Straße 1<br>
-99094 Erfurt<br>
+<br />
+Erich-Kästner-Straße 1<br />
+99094 Erfurt<br />
 <a href="https://www.google.de/maps/place/STUDIOPARK+KinderMedienZentrum/@50.962001,10.997024,15z/data=!4m2!3m1!1s0x0:0x21aa05e82e07edda" title="Zu Google Maps" target="_blank">Zu Google Maps »</a>
 
-<div class="location__partybox">
-  <h2>Friday Party:</h2>
+<div style="overflow: hidden">
+  <div class="location__partybox">
+    <h2>Friday Party:</h2>
 
-  **tbd**
+    **tbd**
 
+  </div>
+
+  <div class="location__partybox">
+    <h2>Saturday Party:</h2>
+
+    **tbd**
+    <br>
+
+  </div>
 </div>
 
-<div class="location__partybox">
-  <h2>Saturday Party:</h2>
-
-  **tbd**
-  <br>
-
-</div>
-
+## Gelände-Übersicht
 <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/cainvommars.mdoa02ph/attribution,zoompan,zoomwheel.html?access_token=pk.eyJ1IjoiY2FpbnZvbW1hcnMiLCJhIjoiOWJkZDdhMzc4MzYwNjU3ZTU2ODg4ODI4OGUyYWRiMGUifQ.D7azIHUGIOXL4Uqrl4PGeg'></iframe>
 
 
-## Gelände-Übersicht
-<div align="center"><a href="http://www.barcamp-erfurt.de/downloads/BCE_Anfahrtsplan.pdf"><img src="http://www.barcamp-erfurt.de/downloads/BCE_Anfahrtsplan_klein.png"></a></div>
-
+<!-- <div align="center"><a href="http://www.barcamp-erfurt.de/downloads/BCE_Anfahrtsplan.pdf"><img src="http://www.barcamp-erfurt.de/downloads/BCE_Anfahrtsplan_klein.png"></a></div>
+ -->
 
 ## Anfahrt
 
