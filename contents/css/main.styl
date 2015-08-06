@@ -178,11 +178,19 @@ hr
   margin-top: 2em
   margin-bottom: 1em
   a
+    display: inline-block
     border: 2px solid $a-red
     border-radius: 2px
     font-size: 18px
     padding: 14px 20px
     border-radius: 3px
+    margin: 1em 0
+    @media (min-width: 31.5em)
+      margin-top: 0
+      margin-bottom: 0
+      margin-left: 1em
+    &:first-child
+      margin-left: 0
     &:hover
       text-decoration: none
       color: white
