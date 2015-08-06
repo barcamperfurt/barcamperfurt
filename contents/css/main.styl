@@ -341,18 +341,38 @@ hr
   .small-6
     text-align: left
   .sponsoringheader
-    p:first-child
-      height: 82px
     .small-2
       padding: 4px
       font-weight: bold
       p
         color: #ffffff
         font-weight: bold
-        padding: 1em 1em
         margin: 0
+        padding: 1em
+        height: 200px
+        @media $media-query-medium
+          height: auto
+          padding: 0.25em
+          font-size: 15px
+        @media $media-query-large
+          padding: 1em
+          font-size: 18px
+        span
+          display: block
+          transform: rotate(90deg)
+          white-space: nowrap
+          overflow: visible
+          transform-origin: 50% 50% 0
+          @media $media-query-medium
+            transform: rotate(0)
+            white-space: normal
+            overflow: inherit
+            transform-origin: 0 0 0
+
       div
-        padding: 12px
+        padding: 6px
+        @media $media-query-large
+          padding: 12px
 
     .packagebasicsmall
       p
