@@ -272,18 +272,29 @@ hr
     width: 35px
     height: 35px
     overflow: hidden;
-
-    img
-      height: 80%
-      vertical-align: baseline;
-      padding-top: 5px;
-      padding-left: 6px;
-      display: block
-      svg
-        fill: #efefef
+    background-size: 70%
+    background-repeat: no-repeat
+    background-position: center center
+    &:nth-child(1)
+      background-image: url('/images/ico_twitter.svg')
+      &:hover
+        background-image: url('/images/ico_twitter_white.svg')
+    &:nth-child(2)
+      background-image: url('/images/ico_facebook.svg')
+      &:hover
+        background-image: url('/images/ico_facebook_white.svg')
+    &:nth-child(3)
+      background-image: url('/images/ico_instagram.svg')
+      &:hover
+        background-image: url('/images/ico_instagram_white.svg')
+    &:nth-child(4)
+      background-image: url('/images/ico_message.svg')
+      &:hover
+        background-image: url('/images/ico_message_white.svg')
 
     &:hover, &:focus
-      border-color: $grey-dark
+      border-color: $a-red
+      background-color: $a-red
 
 
 .sponsoring__details
