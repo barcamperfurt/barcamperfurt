@@ -73,56 +73,56 @@ html(lang='de')
 
     block content
 
-    //- block sponsors
+    block sponsors
 
-    //-   .sponsors
-    //-     .grid
-    //-       .small-12.medium-10.medium-centered.large-8.large-centered.columns
-    //-         - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
-    //-         -   return item.index;
-    //-         - }).compact().sortBy(function(item) {
-    //-         -   return item.name;
-    //-         - }).value();
+      .sponsors
+        .grid
+          .small-12.medium-10.medium-centered.large-8.large-centered.columns
+            - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
+            -   return item.index;
+            - }).compact().sortBy(function(item) {
+            -   return item.name;
+            - }).value();
 
-    //-         - var goldSponsors = _.filter(sponsors, function(sponsor) {
-    //-         -   return sponsor.metadata.type === 'gold';
-    //-         - })
+            - var goldSponsors = _.filter(sponsors, function(sponsor) {
+            -   return sponsor.metadata.type === 'gold';
+            - })
 
-    //-         .row
-    //-           .small-12.columns
-    //-             .sponsor-list
-    //-               h2.sponsor-list__title Gold Sponsors
-    //-               each sponsor in goldSponsors
-    //-                 .sponsor.text-center
-    //-                   a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-    //-                     img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+            .row
+              .small-12.columns
+                .sponsor-list
+                  //- h2.sponsor-list__title Gold Sponsors
+                  each sponsor in goldSponsors
+                    .sponsor.text-center
+                      a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+                        img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
-    //-         - var silverSponsors = _.filter(sponsors, function(sponsor) {
-    //-         -   return sponsor.metadata.type === 'silver';
-    //-         - })
+            //- - var silverSponsors = _.filter(sponsors, function(sponsor) {
+            //- -   return sponsor.metadata.type === 'silver';
+            //- - })
 
-    //-         .row
-    //-           .small-12.columns
-    //-             .sponsor-list
-    //-               h2.sponsor-list__title Silver Sponsors
-    //-               each sponsor in silverSponsors
-    //-                 .sponsor.text-center
-    //-                   a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-    //-                     img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+            //- .row
+            //-   .small-12.columns
+            //-     .sponsor-list
+            //-       h2.sponsor-list__title Silver Sponsors
+            //-       each sponsor in silverSponsors
+            //-         .sponsor.text-center
+            //-           a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+            //-             img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
 
-    //-         - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
-    //-         -   return sponsor.metadata.type === 'bronze';
-    //-         - })
+            //- - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
+            //- -   return sponsor.metadata.type === 'bronze';
+            //- - })
 
-    //-         .row
-    //-           .small-12.columns
-    //-             .sponsor-list
-    //-               h2.sponsor-list__title Bronze Sponsors
-    //-               each sponsor in bronzeSponsors
-    //-                 .sponsor.text-center
-    //-                   a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-    //-                     img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+            //- .row
+            //-   .small-12.columns
+            //-     .sponsor-list
+            //-       h2.sponsor-list__title Bronze Sponsors
+            //-       each sponsor in bronzeSponsors
+            //-         .sponsor.text-center
+            //-           a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+            //-             img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
     footer.footer.fancy-background
       |<a href="https://www.betterplace.org/de/projects/31702-4-barcamp-jugend-medien" target="_blank">Unterstütze unsere Konferenz jetzt bei betterplace.org. Vielen Dank!</a>
