@@ -1,15 +1,18 @@
 {
   "output": "../barcamperfurt.github.io",
   "locals": {
-    "url": "http://barcamperfurt.github.io/barcamperfurt/",
-    "name": "barcamp erfurt",
+    "url": "http://www.barcamp-erfurt.de",
+    "name": "BarCamp Erfurt 2015 - Jugend & Medien",
     "owner": "barcamperfurt",
-    "description": "",
-    "keywords": ""
+    "description": "Seit 2012 findet mit dem BarCamp 'Jugend & Medien' eine der größten Fachkonferenzen für Medienmacher, Entwickler, Designer und Pädagogen im Herzen Deutschlands statt. Gemeinsam fördern wir den Dialog über Trends und Technik, über Wissen und Visionen.",
+    "keywords": "barcamp, erfurt, medien"
   },
   "plugins": [
     "./node_modules/wintersmith-stylus/",
-    "wintersmith-livereload"
+    "wintersmith-livereload",
+    "wintersmith-contents",
+    "wintersmith-sitemap",
+    "wintersmith-seo"
   ],
   "require": {
     "moment": "moment",

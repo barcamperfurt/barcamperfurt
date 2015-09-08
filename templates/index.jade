@@ -1,15 +1,54 @@
 extends layout
 
 block content
-  .grid
-    .small-12.columns
-      h1.intro-title
-        | Das BarCamp Erfurt geht weiter!
 
-  .news
+  .fancy-background
+    .grid.menu-subline
+      .small-12.medium-6.large-4.columns
+        .menu-subline-item
+          img(src='/images/ico_calendar.svg')
+          p
+            | 24.-25.10.2015
+      .small-12.medium-6.large-4.columns
+        .menu-subline-item
+          img(src='/images/ico_clock.svg')
+          p
+            | 9:00-17:00
+      .small-12.large-4.columns
+        .menu-subline-item
+          img(src='/images/ico_location.svg')
+          p
+            | StudioPark KinderMedienZentrum
+            br
+            | Erich-Kästner-Strasse 1
+            br
+            | 99094 Erfurt
+
+  .fancy-background
     .grid
       .small-12.medium-10.medium-centered.large-8.large-centered.columns
-        h1 Latest News
+        h1 Konferenz 'Jugend & Medien'
+
+        p Seit 2012 findet mit dem BarCamp 'Jugend & Medien' eine der größten Fachkonferenzen für Medienmacher, Entwickler, Designer und Pädagogen im Herzen Deutschlands statt. Gemeinsam fördern wir den Dialog über Trends und Technik, über Wissen und Visionen.
+        <a href="/faq">Was ist ein BarCamp?</a>
+
+  .fancy-background
+    .grid
+      .small-12.medium-10.medium-centered.large-8.large-centered.columns
+        h1 Newsletter
+        form.newsletter-form(action='//barcamp-erfurt.us11.list-manage.com/subscribe/post?u=bee2bd36f7955bac93cfb70c0&amp;id=26363c8317' method='post' id='mc-embedded-subscribe-form' name='mc-embedded-subscribe-form' class='validate' target='_blank' novalidate)
+          p Immer auf dem Laufenden bleiben! Trage dich für unseren Newsletter ein und erfahre sofort, wenn die Anmeldung eröffnet.
+          div.text-center
+            input(type='email' value='' name='EMAIL' class='newsletter-email' placeholder='biene@maja.de')
+            input(type='submit' value='Ab damit!' name='subscribe' class='button-signup')
+
+          div(style='position: absolute; left: -5000px;')
+            input(type='text' name='b_bee2bd36f7955bac93cfb70c0_26363c8317' tabindex='-1' value='')
+
+  .news.fancy-background
+    .grid
+      .small-12.medium-10.medium-centered.large-8.large-centered.columns
+        h1 News
           a.icon-rss(href='/feed.xml') &nbsp;
     .grid
       - var articles = _.chain(contents.news._.directories).map(function(item) {
@@ -23,36 +62,26 @@ block content
       each article in articles
         article.news__article.small-12.medium-10.medium-centered.large-8.large-centered.columns
           h2.news__article__title
-            small= moment(article.date).format('MMMM DD, YYYY')
+            small= moment(article.date).locale('de').format('DD. MMMM YYYY')
             br
             a(href=article.url)= article.title
           section.news__article__content!= article.intro
 
     .grid
       .more-link.small-12.medium-10.medium-centered.large-8.large-centered.columns
-        a(href='/news/', title='News') View all news »
+        a(href='/news/', title='News') Alle News lesen
 
 
-  .location
+  .location.fancy-background
     .grid
       .small-12.medium-10.medium-centered.large-8.large-centered.columns
         h1 Location
         iframe(width='100%', height='500px', frameBorder='0', src='https://a.tiles.mapbox.com/v4/cainvommars.mdoa02ph/attribution,zoompan,zoomwheel.html?access_token=pk.eyJ1IjoiY2FpbnZvbW1hcnMiLCJhIjoiOWJkZDdhMzc4MzYwNjU3ZTU2ODg4ODI4OGUyYWRiMGUifQ.D7azIHUGIOXL4Uqrl4PGeg')
       .more-link.small-12.medium-10.medium-centered.large-8.large-centered.columns
-        a(href='/location', title='Find out more') Find out more about the location »
+        a(href='/location', title='Mehr zur Location') Mehr zur Location
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .fancy-background.video
+    .grid
+      .small-12.medium-10.medium-centered.large-8.large-centered.columns
+        .video-container
+          iframe.small-centered( width='560', height='315', frameBorder='0', src='https://www.youtube.com/embed/5Kt3rbSZs6E' allowfullscreen)

@@ -12,79 +12,137 @@ block content
           h1!= page.title
 
     .small-12.medium-10.medium-centered.large-8.large-centered.columns
-        br
-        br
+        p Das BarCamp "Jugend & Medien" ist kostenlos für über 100 Teilnehmer. Alle Organisatoren arbeiten ehrenamtlich. Trotzdem entstehen jedes Jahr zirka 5000EUR Kosten für Miete, Catering, Versicherung etc. Das ist nur dank unserer großartigen Sponsoren möglich. Wenn du uns auch unterstützen willst (ob finanziell, materiell oder ideell), dann spende bei unserer <a href="https://www.betterplace.org/de/projects/31702-4-barcamp-jugend-medien">betterplace-Kampagne</a> oder wende Dich an <a href="mailto:peter@barcamp-erfurt.de"> Peter. </a>
 
-        h3 The JavaScript Unconference would not be possible without the kind support of these companies:
+        .more-link.small-centered
+          a(href='mailto:peter@barcamp-erfurt.de', title='Kontakt') Sponsor werden
+          a(href='https://www.betterplace.org/de/projects/31702-4-barcamp-jugend-medien', title='Spenden') Spender werden
+          <br /><br />
 
-        - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
-        -   return item.index;
-        - }).compact().sortBy(function(item) {
-        -   return item.name;
-        - }).value();
+        h2 Wie kann man außerdem unterstützen?
+        ul
+          li <strong>Materiell</strong>
+          | Vom Teebeutel bis zum Leih-Beamer gibt es viel, das wir gebrauchen können. Auch als Materialsponsor kannst Du uns unterstützen oder als Materialsponsor für deine Firma werben. Ob Obst, Snacks, Kaffee oder Haftnotizen - <a href="mailto:peter@barcamp-erfurt.de"> schreib uns!</a><br /><br />
+          li <strong>Ideell</strong>
+          | Hilf uns, unsere Konferenz noch bekannter zu machen. Du kennst mögliche Sponsoren? Du schreibst einen Blog oder Newsletter und willst uns erwähnen? <a href="https://twitter.com/BarCampErfurt">Retweete</a>, <a href="https://de-de.facebook.com/barcamperfurt">like</a> und verlinke uns!
+          <br /><br /><br />
 
-        .row
-          .small-12.columns
-            .sponsor-list
-              h2.sponsor-list__title Gold Sponsors
+        h2(id='unternehmen') Die Sponsoring-Pakete für Unternehmen
 
-          - var goldSponsors = _.filter(sponsors, function(sponsor) {
-          -   return sponsor.metadata.type === 'gold';
-          - });
+    .small-12.medium-10.medium-centered.large-8.large-centered.columns.sponsoringoptions
+      .grid.sponsoringheader
+        .small-6.columns
+          p
+        .small-2.columns.packagebasicsmall
+          p
+            span Basispaket Klein
+          div ab 299€
+        .small-2.columns.packagebasicbig
+          p
+            span Basispaket Groß
+          div ab 599€
+        .small-2.columns.packagepremium
+          p
+            span Premium Paket
+          div ab 999€
+      .grid
+        .small-6.columns
+          p Ihr Logo auf allen Webauftritten
+        .small-2.columns
+          p ✓
+        .small-2.columns
+          p ✓
+        .small-2.columns
+          p ✓
+      .grid
+        .small-6.columns
+          p 2 reservierte Konferenz-Plätze
+        .small-2.columns
+          p ✓
+        .small-2.columns
+          p ✓
+        .small-2.columns
+          p ✓
+      .grid
+        .small-6.columns
+          p Ihre Flyer werden auf der Konferenz ausgelegt
+        .small-2.columns
+          p ✓
+        .small-2.columns
+          p ✓
+        .small-2.columns
+          p ✓
+      .grid
+        .small-6.columns
+          p Ihre Jobangebote auf unserer Jobwall während der Veranstaltung
+        .small-2.columns
+          p ✓
+        .small-2.columns
+          p ✓
+        .small-2.columns
+          p ✓
+      .grid
+        .small-6.columns
+          p Ihre Aufsteller, Beachflags, Poster oder ähnliches können platziert werden
+        .small-2.columns
+          p
+        .small-2.columns
+          p ✓
+        .small-2.columns
+          p ✓
+      .grid
+        .small-6.columns
+          p Einbindung in unsere Social Media Arbeit
+        .small-2.columns
+          p
+        .small-2.columns
+          p ✓
+        .small-2.columns
+          p ✓
+      .grid
+        .small-6.columns
+          p Einbindung in die Offline-Öffentlichkeitsarbeit
+        .small-2.columns
+          p
+        .small-2.columns
+          p
+        .small-2.columns
+          p ✓
+      .grid
+        .small-6.columns
+          p Ihr Logo  auf über 100 T-Shirts für die Teilnehmer
+        .small-2.columns
+          p
+        .small-2.columns
+          p
+        .small-2.columns
+          p ✓
+      .grid
+        .small-6.columns
+          p Individualisierbarer Auftritt. Sie haben einen besonderen Wunsch sich auf dem BarCamp zu präsentieren? Wir machen es möglich
+        .small-2.columns
+          p
+        .small-2.columns
+          p
+        .small-2.columns
+          p ✓
 
-          each sponsor in goldSponsors
-            .small-12.columns.sponsor
-              .text-center
-                a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name)
-                  img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
-                p
-                  br
-                  a(href='https://twitter.com/' + sponsor.metadata.twitter, target='_blank')= sponsor.metadata.twitter
-                  br
-                  a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
-              p.sponsor__text!= sponsor.metadata.text
+    .small-12.medium-10.medium-centered.large-8.large-centered.columns
+      h2 Wie profitiere ich als Unternehmen vom Sponsoring?
+      ul
+        li Werbung für Ihr Unternehmen bei Innovatoren, Multiplikatoren und Experten
+        li Präsentation Ihres Projektes bei einer meinungsbildenen Zielgruppe
+        li starke Einbindung Ihrer Marke in unsere Öffentlichkeitsarbeit
+        li für Premiumsponsoren: Ihr Logo auf über 100 T-Shirts für jeden Teilnehmer
+        li Karma!
+      |Sie sind in bester Gesellschaft. BarCamps werden u.a. gesponsert von Microsoft, Google, Otto, Burda Media oder der Telekom.
 
-        .row
-          .small-12.columns
-            .sponsor-list
-              h2.sponsor-list__title Silver Sponsors
+      .more-link.small-centered
+        a(href='mailto:peter@barcamp-erfurt.de', title='Kontakt') Sponsor werden
+        a(href='https://www.betterplace.org/de/projects/31702-4-barcamp-jugend-medien', title='Spenden') Spender werden
 
-          - var silverSponsors = _.filter(sponsors, function(sponsor) {
-          -   return sponsor.metadata.type === 'silver';
-          - });
 
-          each sponsor in silverSponsors
-            .small-12.columns.sponsor
-              .text-center
-                a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name)
-                  img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
-                p
-                  br
-                  a(href='https://twitter.com/' + sponsor.metadata.twitter, target='_blank')= sponsor.metadata.twitter
-                  br
-                  a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
-              p.sponsor__text!= sponsor.metadata.text
 
-        .row
-          .small-12.columns
-            .sponsor-list
-              h2.sponsor-list__title Bronze Sponsors
 
-          - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
-          -   return sponsor.metadata.type === 'bronze';
-          - });
-
-          each sponsor in bronzeSponsors
-            .small-12.columns.sponsor
-              .text-center
-                a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name)
-                  img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
-                p
-                  br
-                  a(href='https://twitter.com/' + sponsor.metadata.twitter, target='_blank')= sponsor.metadata.twitter
-                  br
-                  a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
-              p.sponsor__text!= sponsor.metadata.text
-
-block sponsors
+//- block sponsors
   //- Empty

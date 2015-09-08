@@ -1,5 +1,5 @@
 doctype
-html(lang='en')
+html(lang='de')
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
@@ -46,106 +46,113 @@ html(lang='en')
 
   body.site(class=page.metadata.category ? 'site--' + page.metadata.category : '')
     header.header
-      .grid
-        .small-12.large-6.columns
-          a(href='/')
-            img.header__logo(src='/images/logo.svg')
-        .small-12.large-6.columns
-          h3.header__headline
-            | November, 2015
-            br
-            | Erfurt
+      .header-wrapper
+        nav
+          .grid
+            .small-12.columns
+              ul.menu
+                li.menu__item
+                  a.menu__item__link.menu__item__link--start(href='/') Start
+                li.menu__item
+                  a.menu__item__link.menu__item__link--news(href='/news/') News
+                li.menu__item
+                  a.menu__item__link.menu__item__link--location(href='/location/') Location
+                li.menu__item
+                  a.menu__item__link.menu__item__link--tickets(href='/tickets/') Tickets
+                li.menu__item
+                  a.menu__item__link.menu__item__link--sponsoring(href='/sponsoring/') Sponsoring
+                li.menu__item
+                  a.menu__item__link.menu__item__link--faq(href='/faq/') FAQ
+                li.menu__item
+                  a.menu__item__link.menu__item__link--about(href='/about/') About
 
-      nav
         .grid
           .small-12.columns
-            ul.menu
-              li.menu__item
-                a.menu__item__link.menu__item__link--news(href='/news/') News
-              //- li.menu__item
-              //-   a.menu__item__link.menu__item__link--contriboot(href='http://contriboot2015.jsunconf.eu/') Contribs &amp; Interests
-              li.menu__item
-                a.menu__item__link.menu__item__link--location(href='/location/') Location
-              li.menu__item
-                a.menu__item__link.menu__item__link--location(href='http://twitterwall.kreuz.es/') Twitter
-              //- li.menu__item
-              //-   a.menu__item__link.menu__item__link--schedule(href='http://schedule.jsunconf.eu/') Schedule
-              li.menu__item
-                a.menu__item__link.menu__item__link--sponsoring(href='/sponsoring/') Sponsoring
-              li.menu__item
-                a.menu__item__link.menu__item__link--coc(href='/code-of-conduct/') CoC
-              li.menu__item
-                a.menu__item__link.menu__item__link--faq(href='/faq/') FAQ
-              li.menu__item
-                a.menu__item__link.menu__item__link--about(href='/about/') About
+            a(href='/')
+              img.header__logo(src='/images/logo.svg')
 
     block content
 
-    //- block sponsors
+    block sponsors
 
-    //-   .sponsors
-    //-     .grid
-    //-       .small-12.medium-10.medium-centered.large-8.large-centered.columns
-    //-         - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
-    //-         -   return item.index;
-    //-         - }).compact().sortBy(function(item) {
-    //-         -   return item.name;
-    //-         - }).value();
+      .sponsors
+        .grid
+          .small-12.medium-10.medium-centered.large-8.large-centered.columns
+            - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
+            -   return item.index;
+            - }).compact().sortBy(function(item) {
+            -   return item.name;
+            - }).value();
 
-    //-         - var goldSponsors = _.filter(sponsors, function(sponsor) {
-    //-         -   return sponsor.metadata.type === 'gold';
-    //-         - })
+            - var goldSponsors = _.filter(sponsors, function(sponsor) {
+            -   return sponsor.metadata.type === 'gold';
+            - })
 
-    //-         .row
-    //-           .small-12.columns
-    //-             .sponsor-list
-    //-               h2.sponsor-list__title Gold Sponsors
-    //-               each sponsor in goldSponsors
-    //-                 .sponsor.text-center
-    //-                   a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-    //-                     img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+            .row
+              .small-12.columns
+                .sponsor-list
+                  //- h2.sponsor-list__title Gold Sponsors
+                  each sponsor in goldSponsors
+                    .sponsor.text-center
+                      a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+                        img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
-    //-         - var silverSponsors = _.filter(sponsors, function(sponsor) {
-    //-         -   return sponsor.metadata.type === 'silver';
-    //-         - })
+            //- - var silverSponsors = _.filter(sponsors, function(sponsor) {
+            //- -   return sponsor.metadata.type === 'silver';
+            //- - })
 
-    //-         .row
-    //-           .small-12.columns
-    //-             .sponsor-list
-    //-               h2.sponsor-list__title Silver Sponsors
-    //-               each sponsor in silverSponsors
-    //-                 .sponsor.text-center
-    //-                   a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-    //-                     img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+            //- .row
+            //-   .small-12.columns
+            //-     .sponsor-list
+            //-       h2.sponsor-list__title Silver Sponsors
+            //-       each sponsor in silverSponsors
+            //-         .sponsor.text-center
+            //-           a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+            //-             img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
 
-    //-         - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
-    //-         -   return sponsor.metadata.type === 'bronze';
-    //-         - })
+            //- - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
+            //- -   return sponsor.metadata.type === 'bronze';
+            //- - })
 
-    //-         .row
-    //-           .small-12.columns
-    //-             .sponsor-list
-    //-               h2.sponsor-list__title Bronze Sponsors
-    //-               each sponsor in bronzeSponsors
-    //-                 .sponsor.text-center
-    //-                   a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-    //-                     img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+            //- .row
+            //-   .small-12.columns
+            //-     .sponsor-list
+            //-       h2.sponsor-list__title Bronze Sponsors
+            //-       each sponsor in bronzeSponsors
+            //-         .sponsor.text-center
+            //-           a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+            //-             img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
-    footer.footer
+    footer.footer.fancy-background
+      |<a href="https://www.betterplace.org/de/projects/31702-4-barcamp-jugend-medien" target="_blank">Unterstütze unsere Konferenz jetzt bei betterplace.org. Vielen Dank!</a>
+      <br />
+      iframe.small-centered( width='160', height='260', frameBorder='0', margin_top='20px' src='https://www.betterplace.org/de/projects/31702-4-barcamp-jugend-medien/widget')
       .grid.footer__row
-        .small-12.medium-8.large-6.small-centered.columns made with &hearts; and node.js, inspired by
+        .small-12.medium-8.large-6.small-centered.columns made with &hearts; and node.js, inspired by&nbsp;
           a(href='http://2015.jsunconf.eu/') 2015.jsunconf.eu
       .grid.footer__row
         .small-12.medium-8.large-6.small-centered.columns
-          a(href='http://twitter.com/barcamperfurt') @BarCampErfurt
+          a(href='/imprint/') Impressum
           | &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-          a(href='/imprint/') Imprint
+          a(href='/sponsoring/') Sponsoring
+          | &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          a(href='/presse/') Presse
       .grid.footer__row
         .small-12.medium-8.large-6.small-centered.columns
-          | We expect everybody to follow our&nbsp;
-          a(href='/code-of-conduct/') Code of Conduct
-          | .
+          a.social-icon(href='http://twitter.com/barcamperfurt', title='@BarCampErfurt')
+          | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          a.social-icon(href='https://www.facebook.com/barcamperfurt', title='facebook.com/barcamperfurt')
+          | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          a.social-icon(href='https://instagram.com/barcamp_erfurt', title='instagram.com/barcamp_erfurt')
+          | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          a.social-icon(href='mailto:info@barcamperfurt.de', title='info@barcamperfurt.de')
+
+      .grid.footer__row
+        .small-12.medium-8.large-6.small-centered.columns
+          | Wir erwarten, dass alle Teilnehmer die &nbsp;
+          a(href='/code-of-conduct/') Verhaltensregeln
+          |  beachten.
 
     script.
 
@@ -154,6 +161,6 @@ html(lang='en')
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      //- ga('create', 'UA-44357704-3', 'auto');
+      ga('create', 'UA-26457669-2', 'auto');
       ga('set', 'anonymizeIp', true);
       ga('send', 'pageview');

@@ -2,10 +2,38 @@
   "title": "About",
   "template": "about.jade",
   "category": "about",
-  "organizers": [
+  "organizers1": [
+    {
+      "twitter": "verteilerknoten",
+      "name": "Jeannette Rische"
+    },
+    {
+      "twitter": "myrbel",
+      "name": "Martin Fache"
+    },
+    {
+      "twitter": "saschawech",
+      "name": "Sascha Wechsung"
+    }
+  ],
+  "organizers2": [
+    {
+      "twitter": "inselmomente",
+      "name": "Sebastian Kratz"
+    },
+    {
+      "twitter": "coworkingerfurt",
+      "name": "Robert Hollmann"
+    },
     {
       "twitter": "cainvommars",
       "name": "Peter Willert"
+    }
+  ],
+  "supporter1": [
+    {
+      "twitter": "pushsomepixels",
+      "name": "Kerstin Groß"
     }
   ]
 }

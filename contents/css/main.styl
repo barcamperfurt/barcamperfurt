@@ -1,6 +1,8 @@
 @import 'nib'
 @import '../bower_components/normalize.styl/normalize.styl'
 @import '../bower_components/stackenblochen/stackenblochen.styl'
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,300');
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,600');
 
 $violet = #92137F;
 $red-violet = #8f1332;
@@ -9,13 +11,16 @@ $grey-very-light = #f5f7fa
 $grey-light = #e6e9ed
 $grey-dark = #434a54
 
+$not-blue = #5FA7E1
+$a-red = #C6463F
+
 *, *:before, *:after
   box-sizing: border-box
 
 html, body
   height: 100%
   color: $grey-dark
-  font-family: 'Merriweather', serif
+  font-family: 'Open Sans', sans-serif;
   font-size: 100%
   line-height: 1.333
   -webkit-font-smoothing: antialiased
@@ -29,7 +34,7 @@ figure
 
 a
   text-decoration: none
-  color: $red-violet
+  color: $a-red
   transition: color .2s
   word-break: break-all
   &:hover, &:focus
@@ -37,12 +42,10 @@ a
 
 h1
   text-align: center
-  margin: 1.5em 15%
+  margin: 1.5em 15% .5em
   line-height: 1.666
-  border-bottom: 1px solid $grey-light
-  font-family: Lato, sans-serif
-  font-weight: 300
-  font-style: normal
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px
 
 h3
   margin: 1.5em 0 0 0
@@ -56,6 +59,10 @@ small
 img
   vertical-align: bottom
 
+p
+  font-size: 18px
+  font-weight: 300
+
 hr
   font-size: 1rem
   margin: 0
@@ -65,19 +72,21 @@ hr
 
 .header
   font-size: 1rem
-  background: $violet url('/images/header.jpg') center center no-repeat
+  font-family: 'Raleway', sans-serif;
+  background: transparent url('/images/header.jpg') center center no-repeat
   background-size: cover
   text-align: center
   color: white
   position: relative
+  .header-wrapper
+    background-color: rgba(255,255,255,.4)
   &__logo
-    height: 150px !important
-    margin: 2em 0
+    height: 100px !important
+    @media (min-width: 25em) {
+      height: 200px !important
+    }
+    margin-bottom: 1em
     transition: all .25s
-    &:hover, &:focus
-      height: 100px
-      transform: rotate(-10deg)
-      border-radius: 20%
     &__background
       fill: transparent !important
   &__headline
@@ -108,22 +117,21 @@ hr
 .menu
   font-size: 1rem
   list-style: none
-  margin: 2em 0
+  margin: 2em 0 0
   padding: 0
   &__item
     display: inline-block
     &__link
-      font-size: 1.25em
       display: inline-block
-      color: white
-      font-weight: bold
+      color: #000
+      text-shadow: 1px 1px 1px #fff
       padding: .25em .25em .15em .25em
       margin: .25em .25em .35em .25em
       border-bottom: 2px solid transparent
-      border-top-right-radius: 4px
-      border-top-left-radius: 4px
+      border-radius: 4px
       transition: all .25s
       .site--news &--news,
+      .site--tickets &--tickets,
       .site--location &--location,
       .site--sponsoring &--sponsoring,
       .site--faq &--faq,
@@ -132,24 +140,88 @@ hr
       &:hover, &:focus
         background-color: rgba(0, 0, 0, .1)
         text-decoration: none
-        border-bottom-color: white
 
-.intro-title
-  border-bottom: none
-  font-family: 'Merriweather', serif
-  font-weight: 700
-  font-style: italic
+.menu-subline
+  padding-top: 2em
+
+  img
+    height: 50px
+    vertical-align: middle
+    margin-right: 12px
+    float: left
+
+  .menu-subline-item
+    display: table
+    margin-top: 1em;
+
+    @media $media-query-large
+      margin-top: 0
+
+    p
+      font-weight: normal
+      display: table-cell
+      vertical-align: middle
+
+.fancy-background
+  background: #f3f3f3
+  padding-bottom: 3em
+  &:nth-child(odd)
+    background: white
 
 .news
   &__article
     margin-bottom: 3em
     &:last-child
       margin-bottom: 1em
-
 .more-link
   text-align: center
-  margin-top: 1em
+  margin-top: 2em
   margin-bottom: 1em
+  a
+    display: inline-block
+    border: 2px solid $a-red
+    border-radius: 2px
+    font-size: 18px
+    padding: 14px 20px
+    border-radius: 3px
+    margin: 1em 0
+    @media (min-width: 31.5em)
+      margin-top: 0
+      margin-bottom: 0
+      margin-left: 1em
+    &:first-child
+      margin-left: 0
+    &:hover
+      text-decoration: none
+      color: white
+      background: $a-red
+
+.newsletter-form
+  .newsletter-email
+    height: 50px
+    width 100%
+    max-width: 300px
+    border: 2px solid #b8b8b8
+    padding: 0 19px
+    border-radius: 2px
+    margin: 1em 0
+    @media (min-width: 38em)
+      margin-top: 0
+      margin-bottom: 0
+
+  .button-signup
+    border: 2px solid $a-red
+    border-radius: 2px
+    font-size: 18px
+    padding: 12px 20px
+    border-radius: 3px
+    background: white
+    margin-left: 5px
+    height: 50px
+    &:hover
+      text-decoration: none
+      color: white
+      background: $a-red
 
 .sponsoring
   &__image
@@ -172,6 +244,12 @@ hr
       &__caption
         padding: .5em
 
+.video
+  padding-top: 3em
+  iframe
+    display: block
+    margin: 0 auto
+
 .footer
   font-size: 1rem
   line-height: 2em
@@ -185,6 +263,43 @@ hr
     text-decoration: underline
     &:hover, &:focus
       color: $grey-dark
+
+  .social-icon
+    display: inline-block
+    border: 2px solid $a-red
+    border-radius: 3px
+    background-color: #fff
+    width: 35px
+    height: 35px
+    overflow: hidden;
+    background-size: 70%
+    background-repeat: no-repeat
+    background-position: center center
+    &:nth-child(1)
+      background-image: url('/images/ico_twitter.svg')
+      &:hover
+        background-image: url('/images/ico_twitter_white.svg')
+    &:nth-child(2)
+      background-image: url('/images/ico_facebook.svg')
+      &:hover
+        background-image: url('/images/ico_facebook_white.svg')
+    &:nth-child(3)
+      background-image: url('/images/ico_instagram.svg')
+      &:hover
+        background-image: url('/images/ico_instagram_white.svg')
+    &:nth-child(4)
+      background-image: url('/images/ico_message.svg')
+      &:hover
+        background-image: url('/images/ico_message_white.svg')
+    &:nth-child(5)
+      background-image: url('/images/ico_youtube.svg')
+      &:hover
+        background-image: url('/images/ico_youtube_white.svg')
+
+    &:hover, &:focus
+      border-color: $a-red
+      background-color: $a-red
+
 
 .sponsoring__details
   font-size: 1.5em
@@ -217,3 +332,79 @@ hr
   float: left
   width: 300px
   margin-bottom: 30px
+
+@media (max-width: 560px)
+  .video-container
+    position: relative
+    padding-bottom: 56.25%
+    padding-top: 35px
+    height: 0
+    overflow: hidden
+
+    iframe
+      position: absolute;
+      top:0
+      left: 0
+      width: 100%
+      height: 100%
+
+
+.sponsoringoptions
+  text-align: center
+  .grid:nth-child(odd)
+    background: #f1f1f1
+  .grid:first-child
+    background: #ffffff
+  .small-6
+    text-align: left
+  .sponsoringheader
+    .small-2
+      padding: 4px
+      font-weight: bold
+      p
+        color: #ffffff
+        font-weight: bold
+        margin: 0
+        padding: 1em
+        height: 200px
+        @media $media-query-medium
+          height: auto
+          padding: 0.25em
+          font-size: 15px
+        @media $media-query-large
+          padding: 1em
+          font-size: 18px
+        span
+          display: block
+          transform: rotate(90deg)
+          white-space: nowrap
+          overflow: visible
+          transform-origin: 50% 50% 0
+          @media $media-query-medium
+            transform: rotate(0)
+            white-space: normal
+            overflow: inherit
+            transform-origin: 0 0 0
+
+      div
+        padding: 6px
+        @media $media-query-large
+          padding: 12px
+
+    .packagebasicsmall
+      p
+        background: $not-blue
+      div
+        background: #f1f1f1
+
+    .packagebasicbig
+      p
+        background: $not-blue
+      div
+        background: #e1e1e1
+
+    .packagepremium
+      p
+        background: $a-red
+      div
+        background: #cdcdcd
