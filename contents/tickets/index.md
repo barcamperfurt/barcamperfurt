@@ -18,7 +18,7 @@ Die gesamte Veranstaltung ist für jeden angemeldeten Teilnehmer kostenlos.
 
 ##Newsletter
 <form action="//barcamp-erfurt.us11.list-manage.com/subscribe/post?u=bee2bd36f7955bac93cfb70c0&amp;amp;id=26363c8317" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="" class="newsletter-form validate">
-  <p>Trage dich am besten auch für unseren Newsletter ein. Wir nerven nicht, geben nur über neue Dinge zum BarCamp bescheid. Versprochen!</p>
+  <p>Trage dich am besten auch für unseren Newsletter ein. Wir nerven nicht, geben nur über neue Dinge zum BarCamp Bescheid. Versprochen!</p>
   <input value="" name="EMAIL" placeholder="biene@maja.de" class="newsletter-email" type="email">
   <input value="Ab damit!" name="subscribe" class="button-signup" type="submit">
   <div style="position: absolute; left: -5000px;">
