@@ -9,9 +9,16 @@ category: tickets
 Die gesamte Veranstaltung ist für jeden angemeldeten Teilnehmer kostenlos.
 <br \><br \>
 
+
+
 ##Anmeldung
+
+<div class="signupFrame" ><iframe  src="//eventbrite.de/tickets-external?eid=18523209418&ref=etckt" frameborder="0" height="480" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.de/r/etckt">Von Eventbrite</a></div></div>
+
+
+##Newsletter
 <form action="//barcamp-erfurt.us11.list-manage.com/subscribe/post?u=bee2bd36f7955bac93cfb70c0&amp;amp;id=26363c8317" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="" class="newsletter-form validate">
-  <p>Trage dich für unseren Newsletter ein und erfahre sofort, wenn die Anmeldung eröffnet.</p>
+  <p>Trage dich am besten auch für unseren Newsletter ein. Wir nerven nicht, geben nur über neue Dinge zum BarCamp bescheid. Versprochen!</p>
   <input value="" name="EMAIL" placeholder="biene@maja.de" class="newsletter-email" type="email">
   <input value="Ab damit!" name="subscribe" class="button-signup" type="submit">
   <div style="position: absolute; left: -5000px;">
