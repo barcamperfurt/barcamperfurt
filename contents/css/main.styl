@@ -82,9 +82,9 @@ hr
     background-color: rgba(255,255,255,.4)
   &__logo
     height: 100px !important
-    @media (min-width: 25em) {
+    @media (min-width: 25em)
       height: 200px !important
-    }
+
     margin-bottom: 1em
     transition: all .25s
     &__background
@@ -409,12 +409,17 @@ hr
       div
         background: #cdcdcd
 
-.signupFrame {
+.signupFrame
   width: calc(100% + 2em)
   text-align: left
   margin: 0 -1em
-  @media $media-query-medium {
+  @media $media-query-medium
     margin: 0
     width: 100;
-  }
-}
+
+.session-entry
+  padding: 24px  24px 0  24px;
+  border-bottom: 1px solid #aab2bd;
+  .speaker-name
+    font-weight: bold
+

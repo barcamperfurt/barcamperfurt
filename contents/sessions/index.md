@@ -10,15 +10,14 @@ category: sessions
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
 <script id="session-template" type="text/x-handlebars-template">
-  <div class="entry">
   {{#.}}
-    {{zeit}}
-    {{name}}
-    {{titel}}
-    {{session}}
+  <div class="session-entry">
+    <span class="speaker-name">{{name}}</span> -
+    <span class="session-title">{{titel}}</span>
+    <p>{{session}}</p>
     <br />
-  {{/.}}
   </div>
+  {{/.}}
 </script>
 
 <script>
@@ -51,7 +50,7 @@ function init() {
     // Generate the HTML for the template
     var html = template(actual_JSON);
     // Render the posts into the page
-    placeHolder.append(html);
+    placeHolder.html(html);
 
   });
  });
@@ -62,4 +61,8 @@ init();
 
  </script>
 
- <div id="sessions"></div>
+Vorgeschlagene Sessions:
+<a style="float: right" href="https://docs.google.com/forms/d/1jR_TZsM6q0JA0wP-2ZqX9J7EiJqogkRz6I8z2pzR5N0/viewform" target="_blank">eigene Session vorschlagen</a>
+<div id="sessions">
+  <img src="/images/spinner-32-black.gif" />
+</div>
