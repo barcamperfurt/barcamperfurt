@@ -12,8 +12,8 @@ category: sessions
 <script id="session-template" type="text/x-handlebars-template">
   {{#.}}
   <div class="session-entry">
-    <span class="speaker-name">{{name}}</span> -
-    <span class="session-title">{{titel}}</span>
+    <span class="session-title">"{{titel}}"</span> -
+    <span class="speaker-name">{{name}}</span>
     <p>{{session}}</p>
     <br />
   </div>
@@ -36,24 +36,24 @@ function loadJSON(callback) {
  }
 
 function init() {
- loadJSON(function(response) {
-  // Parse JSON string into object
-  var actual_JSON = JSON.parse(response);
-  console.log(actual_JSON);
-  $(document).ready(function(){
-    // Extract the text from the template .html() is the jquery helper method for that
-    var raw_template = $('#session-template').html();
-    // Compile that into an handlebars template
-    var template = Handlebars.compile(raw_template);
-    // Retrieve the placeHolder where the Posts will be displayed
-    var placeHolder = $("#sessions");
-    // Generate the HTML for the template
-    var html = template(actual_JSON);
-    // Render the posts into the page
-    placeHolder.html(html);
+  loadJSON(function(response) {
+    // Parse JSON string into object
+    var actual_JSON = JSON.parse(response);
+    console.log(actual_JSON);
+    $(document).ready(function(){
+      // Extract the text from the template .html() is the jquery helper method for that
+      var raw_template = $('#session-template').html();
+      // Compile that into an handlebars template
+      var template = Handlebars.compile(raw_template);
+      // Retrieve the placeHolder where the Posts will be displayed
+      var placeHolder = $("#sessions");
+      // Generate the HTML for the template
+      var html = template(actual_JSON);
+      // Render the posts into the page
+      placeHolder.html(html);
 
+    });
   });
- });
 }
 
 init();
@@ -61,7 +61,7 @@ init();
 
  </script>
 
-Vorgeschlagene Sessions:
+Sessionpinnwand:
 <a style="float: right" href="https://docs.google.com/forms/d/1jR_TZsM6q0JA0wP-2ZqX9J7EiJqogkRz6I8z2pzR5N0/viewform" target="_blank">eigene Session vorschlagen</a>
 <div id="sessions">
   <img src="/images/spinner-32-black.gif" />
