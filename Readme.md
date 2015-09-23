@@ -2,6 +2,10 @@
 
 The website for the barcamp erfurt. It is developed with [Wintersmith](http://wintersmith.io).
 
+## Requirements
+
+nodejs, git
+
 ## Set up
 
 Clone the repo, install wintersmith and the npm modules.
@@ -30,9 +34,18 @@ wintersmith build
 
 ## Deploy
 
-Run make to build and deploy the build to the `gh-pages` branch:
+To build and deploy (aka put it to https://github.com/barcamperfurt/barcamperfurt.github.io) run:
 
 ```bash
-make
+make deploy
 ```
 
+## Release
+
+Login to barcamp-erfurt.de
+
+```bash
+cd /var/www/html/
+git fetch
+git reset --hard origin/master
+```
