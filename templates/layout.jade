@@ -94,7 +94,6 @@ html(lang='de')
               .small-12.columns
                 h2.text-center Das Barcamp Erfurt wird unterstützt von:
                 .sponsor-list
-                  //- h2.sponsor-list__title Gold Sponsors
                   each sponsor in goldSponsors
                     .sponsor.text-center
                       a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
@@ -114,18 +113,17 @@ html(lang='de')
             //-             img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
 
-            //- - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
-            //- -   return sponsor.metadata.type === 'bronze';
-            //- - })
+            - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
+            -   return sponsor.metadata.type === 'bronze';
+            - })
 
-            //- .row
-            //-   .small-12.columns
-            //-     .sponsor-list
-            //-       h2.sponsor-list__title Bronze Sponsors
-            //-       each sponsor in bronzeSponsors
-            //-         .sponsor.text-center
-            //-           a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-            //-             img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+            .row
+              .small-12.columns
+                .sponsor-list
+                  each sponsor in bronzeSponsors
+                    .sponsor.text-center
+                      a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+                        img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
     footer.footer.fancy-background
       |<a href="https://www.betterplace.org/de/projects/31702-4-barcamp-jugend-medien" target="_blank">Unterstütze unsere Konferenz jetzt bei betterplace.org. Vielen Dank!</a>
