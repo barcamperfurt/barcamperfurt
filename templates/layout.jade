@@ -99,18 +99,17 @@ html(lang='de')
                       a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
                         img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
-            //- - var silverSponsors = _.filter(sponsors, function(sponsor) {
-            //- -   return sponsor.metadata.type === 'silver';
-            //- - })
+            - var silverSponsors = _.filter(sponsors, function(sponsor) {
+            -   return sponsor.metadata.type === 'silver';
+            - })
 
-            //- .row
-            //-   .small-12.columns
-            //-     .sponsor-list
-            //-       h2.sponsor-list__title Silver Sponsors
-            //-       each sponsor in silverSponsors
-            //-         .sponsor.text-center
-            //-           a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-            //-             img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+            .row
+              .small-12.columns
+                .sponsor-list
+                  each sponsor in silverSponsors
+                    .sponsor.text-center
+                      a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+                        img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
 
             - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
