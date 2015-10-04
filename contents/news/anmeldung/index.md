@@ -1,6 +1,6 @@
 ---
 title: Anmeldung geöffnet
-date: 2015-09-9
+date: 2015-09-09
 changefreq: weekly
 priority: 0.9
 template: article.jade
