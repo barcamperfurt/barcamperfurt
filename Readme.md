@@ -4,7 +4,7 @@ The website for the barcamp erfurt. It is developed with [Wintersmith](http://wi
 
 ## Requirements
 
-nodejs, git
+nodejs, git, bower
 
 ## Set up
 
