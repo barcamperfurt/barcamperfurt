@@ -1,11 +1,9 @@
 ---
-title: Interviews
+title: Interviews 2014
 changefreq: weekly
 priority: 0.8
 template: simple.jade
 ---
-
-<h1>Interviews 2014</h1>
 
 Wir haben zwei Telnehmer vom BarCamp Erfurt 2014 nach Ihren Eindrücken gefragt.
 
