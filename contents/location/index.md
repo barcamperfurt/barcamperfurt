@@ -16,16 +16,21 @@ Erich-Kästner-Straße 1<br />
 
 <div style="overflow: hidden">
   <div class="location__partybox">
-    <h2>Friday Party:</h2>
+    <h2>Freitag Warmup</h2>
 
-    **tbd**
+    **23.10.2015**
+    <br />
+    ab 19:00 Uhr im <a href="http://www.doubleb-erfurt.de/">Double-B</a>
 
   </div>
 
   <div class="location__partybox">
-    <h2>Saturday Party:</h2>
+    <h2>Saturday Get-Together:</h2>
 
-    **tbd**
+    **24.10.2015**
+    <br />
+    ab 19:00 Uhr im <a href="http://www.nerlyerfurt.de/">Café Nerly</a>
+
     <br>
 
   </div>

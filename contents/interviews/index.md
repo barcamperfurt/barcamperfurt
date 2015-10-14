@@ -5,7 +5,7 @@ priority: 0.8
 template: simple.jade
 ---
 
-Wir haben zwei Telnehmer vom BarCamp Erfurt 2014 nach Ihren Eindrücken gefragt.
+Wir haben zwei Teilnehmer vom BarCamp Erfurt 2014 nach Ihren Eindrücken gefragt.
 
 <ul>
   <li><a href="#katja-reim">Katja Reim im Interview</a></li>
