@@ -39,7 +39,7 @@ Computer in Kinderhände.
 <h3>Was denkst du, ist das besondere am BarCamp Erfurt?</h3>
 <p>
 Ich kann nicht vergleichen, weil es mein einziges Barcamp war. Was ich toll fand, war die
-Offenheit, die Bereitschaft zum Ausstausch, zum Zuhören und zum Erfahrungen
+Offenheit, die Bereitschaft zum Austausch, zum Zuhören und zum Erfahrungen
 weitergeben. Ich habe unheimlich viel gelernt. Toll war auch, dass niemand - in den
 Sessions in denen ich war - mit seinem „Fachchinesisch“ gepost hat, sondern immer sehr
 gut erklärt wurde (z.B in der Scrum-Session) und ich so Einblicke in eine mir unbekannte
