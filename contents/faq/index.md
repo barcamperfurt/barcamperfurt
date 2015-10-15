@@ -23,7 +23,7 @@ category: faq
 </p>
 
 <div class="video-container">
-<iframe width="420" height="315" src="https://www.youtube.com/embed/EtTcFEsNARc" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/x2yeo9SSH7U" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <h2 id="teilnehmer">Bin ich richtig auf der Veranstaltung? Wer kommt da hin?</h2>
