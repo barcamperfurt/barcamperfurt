@@ -37,11 +37,11 @@ Erich-Kästner-Straße 1<br />
 </div>
 
 ## Gelände-Übersicht
-<iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/cainvommars.mdoa02ph/attribution,zoompan,zoomwheel.html?access_token=pk.eyJ1IjoiY2FpbnZvbW1hcnMiLCJhIjoiOWJkZDdhMzc4MzYwNjU3ZTU2ODg4ODI4OGUyYWRiMGUifQ.D7azIHUGIOXL4Uqrl4PGeg'></iframe>
-
-
-<!-- <div align="center"><a href="http://www.barcamp-erfurt.de/downloads/BCE_Anfahrtsplan.pdf"><img src="http://www.barcamp-erfurt.de/downloads/BCE_Anfahrtsplan_klein.png"></a></div>
+<!-- <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/cainvommars.mdoa02ph/attribution,zoompan,zoomwheel.html?access_token=pk.eyJ1IjoiY2FpbnZvbW1hcnMiLCJhIjoiOWJkZDdhMzc4MzYwNjU3ZTU2ODg4ODI4OGUyYWRiMGUifQ.D7azIHUGIOXL4Uqrl4PGeg'></iframe>
  -->
+
+<div align="center"><a href="/downloads/BCEF_lageplan.pdf
+"><img src="/images/BCEF_lageplan.png"></a></div>
 
 ## Anfahrt
 
