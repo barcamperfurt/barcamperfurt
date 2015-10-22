@@ -30,7 +30,7 @@ block content
       -   return item.name;
       - }).value();
 
-      .row
+      .grid
 
         - var goldSponsors = _.filter(sponsors, function(sponsor) {
         -   return sponsor.metadata.type === 'gold';
@@ -48,7 +48,7 @@ block content
                 a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
             p.sponsor__text!= sponsor.metadata.text
 
-      .row
+      .grid
 
         - var silverSponsors = _.filter(sponsors, function(sponsor) {
         -   return sponsor.metadata.type === 'silver';
@@ -66,7 +66,7 @@ block content
                 a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
             p.sponsor__text!= sponsor.metadata.text
 
-      .row
+      .grid
 
         - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
         -   return sponsor.metadata.type === 'bronze';
