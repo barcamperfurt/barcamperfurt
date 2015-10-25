@@ -45,7 +45,7 @@ background-color:#F3F3F3;
 </thead>
 <tbody>
 <tr>
-<td>09:00</td>
+<td>09:00 - 10:00</td>
 <td colspan="4"><strong>Anmeldung & Frühstück</strong></td>
 </tr>
 <tr>
@@ -121,7 +121,7 @@ background-color:#F3F3F3;
 </thead>
 <tbody>
 <tr>
-<td>09:00</td>
+<td>09:00 - 10:00</td>
 <td colspan="4"><strong>Anmeldung & Frühstück</strong></td>
 </tr>
 <tr>
@@ -155,10 +155,10 @@ background-color:#F3F3F3;
 </tr>
 <tr>
 <td>14:30 - 15:15</td>
-<td>Fotografie // PEter @cainvommars</td>
+<td>Fotografie // Peter @cainvommars</td>
 <td>Identität und Gaming // Jan</td>
 <td>BarSession // Sören</td>
-<td>Lytrospielzeug oder Fotografie der Zukunft</td>
+<td>Lytro - Spielzeug oder Fotografie der Zukunft</td>
 </tr>
 <tr>
 <td>15:30 - 16:15</td>
@@ -168,7 +168,7 @@ background-color:#F3F3F3;
 <td>--</td>
 </tr>
 <tr>
-<td>17:30 - 17:45</td>
+<td>16:30 - 16:45</td>
 <td colspan="4"><strong>Abschlusssession</strong> (Raum "EyeEm")</td>
 </tr>
 </tbody>
