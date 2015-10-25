@@ -51,17 +51,17 @@ background-color:#F3F3F3;
 </tr>
 <tr>
 <td>11:00 - 11:45</td>
-<td>EyeEm-Raum Slot1</td>
-<td>KidsInteractive-Raum Slot 1</td>
-<td>Spielplatz Slot1</td>
-<td>barco-Raum Slot1</td>
+<td>Kika Timster Format Preview  // @mmontag @McGimsen</td>
+<td>Animation im Web (TweenMax)</td>
+<td>WarmUp - Wie erzeuge ich Energie wo keine ist.. // Sören</td>
+<td>--</td>
 </tr>
 <tr>
 <td>12:00 - 12:45</td>
-<td>EyeEm-Raum Slot2</td>
-<td>KidsInteractive-Raum Slot 2</td>
-<td>Spielplatz Slot2</td>
-<td>barco-Raum Slot2</td>
+<td>Kika Online Bachstage // @mmontag</td>
+<td>Workflow optimieren</td>
+<td>RapScript Freestyle Rap Tool // @rapscript</td>
+<td>Netzwerk Wissensyoutuber + Bühnenevents // @McGimsen</td>
 </tr>
 <tr>
 <td>12:45 - 13:30</td>
@@ -69,31 +69,24 @@ background-color:#F3F3F3;
 </tr>
 <tr>
 <td>13:30 - 14:15</td>
-<td>EyeEm-Raum Slot3</td>
-<td>KidsInteractive-Raum Slot 3</td>
-<td>Spielplatz Slot3</td>
-<td>barco-Raum Slot3</td>
+<td>Kontrolle in Social Media</td>
+<td>Wie gehe ich offline?</td>
+<td>Theater als Medium der Zukunft // @mitossi</td>
+<td>--</td>
 </tr>
 <tr>
 <td>14:30 - 15:15</td>
-<td>EyeEm-Raum Slot4</td>
-<td>KidsInteractive-Raum Slot 4</td>
-<td>Spielplatz Slot4</td>
-<td>barco-Raum Slot4</td>
+<td>Fotografie // PEter @cainvommars</td>
+<td>Identität und Gaming // Jan</td>
+<td>Kika Online Backstage // @mmontag</td>
+<td>BarSession // Sören</td>
 </tr>
 <tr>
 <td>15:30 - 16:15</td>
-<td>EyeEm-Raum Slot5</td>
-<td>KidsInteractive-Raum Slot 5</td>
-<td>Spielplatz Slot5</td>
-<td>barco-Raum Slot5</td>
-</tr>
-<tr>
-<td>16:30 - 17:15</td>
-<td>EyeEm-Raum Slot6</td>
-<td>KidsInteractive-Raum Slot 6</td>
-<td>Spielplatz Slot6</td>
-<td>barco-Raum Slot6</td>
+<td>Freie Fotos // @zielmedien</td>
+<td>Transparenz // @ThuerTG</td>
+<td>BarSession</td>
+<td>--</td>
 </tr>
 <tr>
 <td>17:30 - 17:45</td>
