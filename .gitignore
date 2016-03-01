@@ -6,3 +6,4 @@ build
 .tmp
 contents/bower_components
 .idea/
+npm-debug.log
