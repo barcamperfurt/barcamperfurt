@@ -55,7 +55,7 @@ Wende dich einfach an <a href="mailto:peter@barcamp-erfurt.de"> Peter</a>. Die V
 <h2 id="ticket">Wie bekomme ich ein Ticket?</h2>
 <p>
 Wir werden die Anmeldung demnächst eröffnen. Wir bitten alle, sich auch dort anzumelden. Dennoch kann zu einem BarCamp jeder -auch spontan- erscheinen, solange es die Location zulässt.
-Allerdings nur wenn dDu angemeldet bist, bekommst du alle wichtigen Informationen und sicherst dir ein T-Shirt in der richtigen Größe und eine kostenlose warme Mahlzeit.
+Allerdings nur wenn Du angemeldet bist, bekommst du alle wichtigen Informationen und sicherst dir ein T-Shirt in der richtigen Größe und eine kostenlose warme Mahlzeit.
 </p>
 
 <h2 id="mixxt">Ich bin vom letzten Jahr noch in der mixxt-Community. Melde ich mich da an?</h2>
