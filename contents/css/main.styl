@@ -83,7 +83,7 @@ hr
   &__logo
     height: 100px !important
     @media (min-width: 25em)
-      height: 200px !important
+      height: 230px !important
 
     margin-bottom: 1em
     transition: all .25s
@@ -234,16 +234,17 @@ hr
     display: inline-block
     max-width: 100%
     color: $grey-dark
-    background: $grey-very-light
     margin-bottom: 2em
     &:hover, &:focus
       .about__link__image
         opacity: .9
         transform: scale(1.05)
     &__image
+      border-radius: 50%
       transition: opacity .3s, transform .3s
       &__caption
         padding: .5em
+        text-align: center;
 
 .video
   padding-top: 3em
