@@ -5,9 +5,8 @@ changefreq: weekly
 priority: 0.8
 category: tickets
 ---
-Preise
----------------
-Die gesamte Veranstaltung ist für jeden angemeldeten Teilnehmer kostenlos.
+
+Wie jedes Jahr gibt es die kostenlosen Tickets erst ein paar Wochen vor der Veranstaltung. Wir halten dich über den Newsletter auf dem Laufenden.
 
 <br \>
 
@@ -28,8 +27,3 @@ Newsletter
   </div>
 </form>
 <br \><br \>
-
-
-mixxt
----------------
-Wir können seit letztem Jahr leider keine Anmeldung mehr über mixxt ermöglichen. Um weiter auf dem Laufenden zu bleiben, trage dich bitte für den Newsletter ein.
