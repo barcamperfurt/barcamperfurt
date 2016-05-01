@@ -100,6 +100,12 @@ hr
       top: 50%
       left: -5em
 
+body:not(.site--start) .header
+  background: none
+
+body:not(.site--start) .header__logo
+  display: none
+
 .ticket-link
   font-size: 1.25rem
   display: inline-block
@@ -114,21 +120,27 @@ hr
   &:hover, &:focus
     background-size: 110%
 
+.menu-wrapper
+  background: transparent url('/images/BCEF_logocircle.svg') calc(50% - 235px) calc(50% + 6px) no-repeat
+  background-size: 40px;
+
+body:not(.site--start) .menu-wrapper
+  background-color: #8c8c8c;
+
 .menu
   font-size: 1rem
   list-style: none
-  margin: 2em 0 0
+  margin: 0
   padding: 0
   &__item
     display: inline-block
     &__link
       display: inline-block
-      color: #000
-      text-shadow: 1px 1px 1px #fff
-      padding: .25em .25em .15em .25em
-      margin: .25em .25em .35em .25em
+      padding: 2.50em .5em .5em .5em
+      margin: 0
+      color: #fff
+      text-shadow: 1px 1px 1px #000
       border-bottom: 2px solid transparent
-      border-radius: 4px
       transition: all .25s
       .site--news &--news,
       .site--location &--location,
@@ -137,10 +149,27 @@ hr
       .site--sponsoring &--sponsoring,
       .site--faq &--faq,
       .site--about &--about
-        background-color: rgba(0, 0, 0, .1)
+        background-color: rgba(255, 255, 255, 1)
+        color: #000
+        text-shadow: 1px 1px 1px #fff
       &:hover, &:focus
         background-color: rgba(0, 0, 0, .1)
         text-decoration: none
+
+.site--start .menu
+  margin: 2em 0 0
+  &__item
+    &__link
+      color: #000
+      border-radius: 4px
+      padding: .25em .25em .15em .25em
+      margin: .25em .25em .35em .25em
+      text-shadow: 1px 1px 1px #fff
+      &:hover,
+      &:focus
+        background-color: rgba(0, 0, 0, .1)
+        text-decoration: none
+
 
 .menu-subline
   padding-top: 2em
