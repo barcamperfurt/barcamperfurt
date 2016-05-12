@@ -6,7 +6,7 @@ priority: 0.9
 template: article.jade
 ---
 
-Ab jetzt könnt ihr euch über Eventbrite verbindlich fürs 4. BarCamp "Jugend & Medien" anmelden. Bitte beachtet bei der Anmeldung, dass es verschiedene Tickets gibt: Freitag Warm-up, Samstag und Sonntag. Wir möchten, dass möglichst viele Teilnehmer an beiden Tagen zu uns kommen, haben für die bessere Planung aber separate Tickets angelegt.
+Ab jetzt könnt ihr euch über Eventbrite verbindlich fürs 4. BarCamp 'Kinder, Jugend & Medien' anmelden. Bitte beachtet bei der Anmeldung, dass es verschiedene Tickets gibt: Freitag Warm-up, Samstag und Sonntag. Wir möchten, dass möglichst viele Teilnehmer an beiden Tagen zu uns kommen, haben für die bessere Planung aber separate Tickets angelegt.
 
 Außerdem könnt ihr auch über Eventbrite spenden. Jedoch geht hier immer ein Share an Eventbrite. Nutzt also lieber die <a href="http://betterplace.org/p31702" target="_blank">betterplace-Kampagne</a>.
 

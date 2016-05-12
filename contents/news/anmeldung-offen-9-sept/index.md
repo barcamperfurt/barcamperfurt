@@ -7,7 +7,7 @@ template: article.jade
 ---
 
 Zu einem Barcamp sollte man sich anmelden. Sonst gibt's nicht genügend Sitzplätze, Räume, Klöße und T-Shirts. Dieses Chaos! Gar nicht auszudenken! Daher schon zur Vorabinformation:
-Die Anmeldung zum Barcamp "Jugend & Medien" 2015 wird ab dem 9. September möglich sein. Keine Sorge, wir geben noch einmal Bescheid wenn es dann soweit ist.
+Die Anmeldung zum Barcamp 'Kinder, Jugend & Medien' 2015 wird ab dem 9. September möglich sein. Keine Sorge, wir geben noch einmal Bescheid wenn es dann soweit ist.
 
 Bitte denk auch daran, dass wir unsere Aktivitäten auf mixxt leider einstellen müssen. Um nichts zum BarCamp zu verpassen, trage dich auf barcamp-erfurt.de für den Newsletter ein.
 

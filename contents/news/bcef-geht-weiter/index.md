@@ -1,5 +1,5 @@
 ---
-title: Es geht weiter! BarCamp "Jugend & Medien" auch 2015
+title: Es geht weiter! BarCamp 'Kinder, Jugend & Medien' auch 2015
 date: 2015-05-06
 changefreq: weekly
 priority: 0.9
