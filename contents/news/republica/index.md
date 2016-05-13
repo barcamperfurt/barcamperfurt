@@ -6,5 +6,4 @@ priority: 0.9
 template: article.jade
 ---
 
-Wir sind dieses Jahr wieder auf der re:publica (<a target="_blank" href="
-https://re-publica.de/">https://re-publica.de/</a>) zugegen, um uns mit zukünftigen Partner und Speakern zu treffen. Für einen Plausch zwischendurch sind wir natürlich immer zu haben. Reger Austausch ist sogar gewünscht! Man sieht sich!
+Wir sind dieses Jahr wieder auf der <a href="https://re-publica.de/">re:publica</a> zugegen, um uns mit zukünftigen Partner und Speakern zu treffen. Für einen Plausch zwischendurch sind wir natürlich immer zu haben. Reger Austausch ist sogar gewünscht! Man sieht sich!
