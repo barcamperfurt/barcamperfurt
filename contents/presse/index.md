@@ -6,7 +6,7 @@ priority: 0.7
 category: presse
 ---
 
-Sie möchten Informationen zum BarCamp 'Kinder, Jugend & Medien' oder wollen über die Veranstaltung berichten? Kontaktieren Sie uns: <a href="mailto:info@barcamp-erfurt.de"> info@barcamp-erfurt.de</a>
+Sie möchten Informationen zum BarCamp 'Kinder, Jugend, Medien' oder wollen über die Veranstaltung berichten? Kontaktieren Sie uns: <a href="mailto:info@barcamp-erfurt.de"> info@barcamp-erfurt.de</a>
 
 ##Pressespiegel, Blogs, Reviews
 
