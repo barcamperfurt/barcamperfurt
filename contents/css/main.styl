@@ -402,20 +402,20 @@ body:not(.site--start) .menu-wrapper
         margin: 0
         padding: 1em
         height: 200px
-        @media $media-query-medium
+        @media (min-width: 29em)
           height: auto
           padding: 0.25em
-          font-size: 15px
+          font-size: 13px
         @media $media-query-large
-          padding: 1em
-          font-size: 18px
+          padding: 0.5em
+          font-size: 16px
         span
           display: block
           transform: rotate(90deg)
           white-space: nowrap
           overflow: visible
           transform-origin: 50% 50% 0
-          @media $media-query-medium
+          @media (min-width: 29em)
             transform: rotate(0)
             white-space: normal
             overflow: inherit
