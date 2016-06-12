@@ -23,27 +23,15 @@ block content
           h2 Wer organisiert das?
 
           .grid.about
-            each organizer in page.metadata.organizers1
-              .small-6.large-4.columns
-                figure
-                    a.about__link(href='https://twitter.com/'+organizer.twitter, target='_blank')
-                      img.about__link__image(src='/images/'+organizer.twitter+'.jpg', width='305', height='305')
+            each organizer in page.metadata.organizers
+              .organizer
+                a.about__link(href='https://twitter.com/'+organizer.twitter, target='_blank')
+                  img.about__link__image(src='/images/'+organizer.twitter+'.jpg')
 
-                      figcaption.about__link__image__caption
-                        = organizer.name
-                        br
-                        = "@" + organizer.twitter
-          .grid.about
-            each organizer in page.metadata.organizers2
-              .small-6.large-4.columns
-                figure
-                    a.about__link(href='https://twitter.com/'+organizer.twitter, target='_blank')
-                      img.about__link__image(src='/images/'+organizer.twitter+'.jpg', width='305', height='305')
-
-                      figcaption.about__link__image__caption
-                        = organizer.name
-                        br
-                        = "@" + organizer.twitter
+                  figcaption.about__link__image__caption
+                    = organizer.name
+                    br
+                    = "@" + organizer.twitter
 
           |<strong>Du kannst dich für keinen entscheiden? Dann schreib einfach eine Mail an <a href="mailto:info@barcamp-erfurt.de">das ganze Orga-Team</a></strong>
 

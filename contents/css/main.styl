@@ -259,6 +259,8 @@ body:not(.site--start) .menu-wrapper
 
 .about
   font-size: 1rem
+  display: flex
+  flex-flow: row wrap
   &__link
     display: inline-block
     max-width: 100%
@@ -272,8 +274,14 @@ body:not(.site--start) .menu-wrapper
       border-radius: 50%
       transition: opacity .3s, transform .3s
       &__caption
-        padding: .5em
+        padding: .5em 0
         text-align: center;
+.organizer
+  padding: 0 1rem
+  width: 50%
+  @media $media-query-large
+    width: 33%
+
 
 .video
   padding-top: 3em

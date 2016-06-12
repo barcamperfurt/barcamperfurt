@@ -2,7 +2,7 @@
   "title": "About",
   "template": "about.jade",
   "category": "about",
-  "organizers1": [
+  "organizers": [
     {
       "twitter": "verteilerknoten",
       "name": "Jeannette Rische"
@@ -14,9 +14,7 @@
     {
       "twitter": "saschawech",
       "name": "Sascha Wechsung"
-    }
-  ],
-  "organizers2": [
+    },
     {
       "twitter": "pushsomepixels",
       "name": "Kerstin Groß"
