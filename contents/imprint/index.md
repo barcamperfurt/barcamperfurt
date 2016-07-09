@@ -6,12 +6,13 @@ template: simple.jade
 ---
 Verantwortlich für den Inhalt von www.barcamp-erfurt.de gemäß § 5 TMG:
 
-Verein zur Förderung der Netzkultur  
+**Verein zur Förderung der Netzkultur  
 STUDIOPARK KinderMedienZentrum  
 Erich-Kästner-Str. 1a  
-99094 Erfurt
+99094 Erfurt**
 
-E-Mail: info@barcamp-erfurt.de
+E-Mail:  
+<a href="mailto:info@barcamp-erfurt.de">info@barcamp-erfurt.de</a>
 
 Logo/Design:  
 Anja Hartmann, Johannes Schmelz - Crazy Monkey Design
