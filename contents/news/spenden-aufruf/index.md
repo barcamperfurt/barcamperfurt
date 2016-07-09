@@ -1,6 +1,6 @@
 ---
 title: Wir brauchen unbedingt eure Hilfe!
-date: 2016-07-28
+date: 2016-07-09
 changefreq: weekly
 priority: 0.9
 template: article.jade
