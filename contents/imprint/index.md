@@ -6,16 +6,12 @@ template: simple.jade
 ---
 Verantwortlich für den Inhalt von www.barcamp-erfurt.de gemäß § 5 TMG:
 
-Martin Fache
-Orgateam BarCamp Erfurt
-Am Bahnhof 8
-99625 Kölleda
+Verein zur Förderung der Netzkultur
+STUDIOPARK KinderMedienZentrum
+Erich-Kästner-Str. 1a
+99094 Erfurt
 
-Telefon: 0171/4766349
-
-E-Mail: martin@fache.org
-
-Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE251838578
+E-Mail: info@barcamp-erfurt.de
 
 Logo/Design:
 Anja Hartmann, Johannes Schmelz - Crazy Monkey Design
