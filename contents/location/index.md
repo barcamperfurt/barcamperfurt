@@ -18,27 +18,29 @@ Erich-Kästner-Straße 1<br />
   <div class="location__partybox">
     <h2>Freitag Warmup</h2>
 
-    **23.10.2015**
+    **04.11.2016**
     <br />
-    ab 19:00 Uhr im <a href="http://www.doubleb-erfurt.de/">Double-B</a>
+    TBA
 
   </div>
 
   <div class="location__partybox">
     <h2>Saturday Get-Together:</h2>
 
-    **24.10.2015**
+    **05.11.2016**
     <br />
-    ab 19:00 Uhr im <a href="http://www.nerlyerfurt.de/">Café Nerly</a>
+    TBA
 
     <br>
 
   </div>
 </div>
 
+<!--
 ## Gelände-Übersicht
 <div align="center"><a href="/downloads/BCEF_lageplan.pdf
 "><img src="/images/BCEF_lageplan.png"></a></div>
+-->
 
 ## Umgebungskarte
 <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/cainvommars.mdoa02ph/attribution,zoompan,zoomwheel.html?access_token=pk.eyJ1IjoiY2FpbnZvbW1hcnMiLCJhIjoiOWJkZDdhMzc4MzYwNjU3ZTU2ODg4ODI4OGUyYWRiMGUifQ.D7azIHUGIOXL4Uqrl4PGeg'></iframe>
