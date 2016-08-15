@@ -1,0 +1,22 @@
+{
+  "title": "Mögliche Sessions",
+  "template": "sessions.jade",
+  "changefreq": "weekly",
+  "priority": "0.8",
+  "category": "sessions",
+  "url": "sessions",
+  "sessions": [
+    {
+      "name": "Martín Fachè",
+      "text": "Experimentelle Physik und Projektmanagement im Vorschulalter.",
+      "twitter": "myrbel",
+      "img": "myrbel.jpg"
+    },
+    {
+      "name": "Pedro Willardo",
+      "text": "Selbsthilfegruppe für Ehrenamtliche Scrummaster",
+      "twitter": "cainvommars",
+      "img": "cainvommars.jpg"
+    }
+  ]
+}

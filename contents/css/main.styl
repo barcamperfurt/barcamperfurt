@@ -371,6 +371,40 @@ body:not(.site--start) .menu-wrapper
 .sponsor__logo
   max-height: 250px
 
+.sessions
+  font-size: 1rem
+  display: flex
+  flex-flow: row wrap
+  &__link
+    display: inline-block
+    max-width: 100%
+    color: $grey-dark
+    margin-bottom: 2em
+    &:hover, &:focus
+      .about__link__image
+        opacity: .9
+        transform: scale(1.05)
+    &__image
+      border-radius: 50%
+      transition: opacity .3s, transform .3s
+      &__caption
+        padding: .5em 0
+        text-align: center;
+        margin: 0 -1.3em
+
+
+.session
+  padding: 1rem 1rem
+  width: 50%
+  @media (min-width: 29em)
+    width: 33%
+
+.session a
+  word-wrap: break-word
+
+.session__logo
+  max-height: 100px
+
 .location__partybox
   float: left
   width: 300px
@@ -459,10 +493,3 @@ body:not(.site--start) .menu-wrapper
   @media $media-query-medium
     margin: 0
     width: 100;
-
-.session-entry
-  padding: 24px  24px 0  24px;
-  border-bottom: 1px solid #aab2bd;
-  .session-title
-    font-weight: bold
-
