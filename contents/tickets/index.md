@@ -6,7 +6,7 @@ priority: 0.8
 category: tickets
 ---
 
-Wie jedes Jahr gibt es die kostenlosen Tickets erst ein paar Wochen vor der Veranstaltung. Wir halten dich über den Newsletter auf dem Laufenden.
+Die gesamte Veranstaltung ist für angemeldete Teilnehmer kostenlos. Das umfasst Frühstück und Mittagessen sowie kalte und warme Getränke an beiden Tagen. Bitte überlege also auch, ob du uns mit einer Spende dabei unterstützen kannst.
 
 <br \>
 
