@@ -98,7 +98,7 @@ html(lang='de')
                 .sponsor-list
                   each sponsor in goldSponsors
                     .sponsor.text-center
-                      a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+                      a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank', alt=sponsor.metadata.name)
                         img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
             //- - var silverSponsors = _.filter(sponsors, function(sponsor) {
