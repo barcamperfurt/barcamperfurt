@@ -1,6 +1,6 @@
 ---
 title: Meetup
-date: 2016-08-01
+date: 2016-08-10
 changefreq: weekly
 priority: 0.9
 template: article.jade
