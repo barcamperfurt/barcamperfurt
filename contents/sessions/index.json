@@ -7,16 +7,34 @@
   "url": "sessions",
   "sessions": [
     {
-      "name": "Martín Fachè",
-      "text": "Experimentelle Physik und Projektmanagement im Vorschulalter.",
-      "twitter": "myrbel",
-      "img": "myrbel.jpg"
+      "name": "Kerstin Butenhoff-Winkler",
+      "text": "Kindern die Mediennutzung nicht madig machen",
+      "twitter": "kerstinbuwi",
+      "img": "kerstin_butenhoff-winkler.jpg"
     },
     {
-      "name": "Pedro Willardo",
-      "text": "Selbsthilfegruppe für Ehrenamtliche Scrummaster",
-      "twitter": "cainvommars",
-      "img": "cainvommars.jpg"
+      "name": "Katja Reim",
+      "text": "Chancen der Medienerziehung",
+      "twitter": "computerkind",
+      "img": "Katja_Reim.jpg"
+    },
+    {
+      "name": "Karsten Kopjar",
+      "text": "'Online gehen, um abzuschalten?!' - Über einen weisen Umgang mit MobileMedia und die Frage, wie man Spiritualität crossmedial erfahren kann.",
+      "twitter": "medientheologe",
+      "img": "Karsten_Kopjar.jpg"
+    },
+    {
+      "name": "Carola Laun",
+      "text": "Engagement und Beteiligung von Kindern und Jugendlichen fördern",
+      "link": "http://www.kjmk.de",
+      "img": "Carola_Laun.jpg"
+    },
+    {
+      "name": "André Stämmler",
+      "text": "„Kauf mich!“ – Zulässige Werbung gegenüber Kindern und jugendlichen",
+      "twitter": "andre_staemmler",
+      "img": "andre_staemmler.jpg"
     }
   ]
 }

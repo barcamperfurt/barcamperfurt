@@ -20,7 +20,9 @@ block content
               a.session__link(href=session.link, title=session.name)
                 img.session__logo(src= "/sessions/" + session.img, alt=session.name)
               p
-                a(href='https://twitter.com/' + session.twitter, target='_blank')= session.name + ' @' + session.twitter
+                span= session.name
+                br
+                a(href= "https://twitter.com/" + session.twitter, target='_blank')= "@" + session.twitter
                 br
                 a(href=session.link, target='_blank')= session.link
             p.session__text!= session.text
