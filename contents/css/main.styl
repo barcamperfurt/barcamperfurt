@@ -120,7 +120,7 @@ body:not(.site--start) .header__logo
     background-size: 110%
 
 .menu-wrapper
-  background: transparent url('/images/BCEF_logocircle.svg') calc(50% - 235px) calc(50% + 6px) no-repeat
+  background: transparent url('/images/BCEF_logocircle.svg') calc(50% - 270px) calc(50% + 6px) no-repeat
   background-size: 40px;
 
 body:not(.site--start) .menu-wrapper
@@ -395,15 +395,15 @@ body:not(.site--start) .menu-wrapper
 
 .session
   padding: 1rem 1rem
-  width: 50%
-  @media (min-width: 29em)
-    width: 33%
 
 .session a
   word-wrap: break-word
 
 .session__logo
   max-height: 100px
+
+.session__text
+  margin: 0;
 
 .location__partybox
   float: left
@@ -493,3 +493,17 @@ body:not(.site--start) .menu-wrapper
   @media $media-query-medium
     margin: 0
     width: 100;
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-figure {
+  margin-right: 1em;
+}
+
+.media-body {
+  margin: 0;
+  flex: 1;
+}

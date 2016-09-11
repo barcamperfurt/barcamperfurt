@@ -11,19 +11,20 @@ block content
         header
           h1!= page.title
 
-    .small-12.medium-10.medium-centered.large-8.large-centered.columns
-
       .grid.sessions
         each session in page.metadata.sessions
-          .session
-            .text-center
-              a.session__link(href=session.link, title=session.name)
-                img.session__logo(src= "/sessions/" + session.img, alt=session.name)
-              p
+          .session.media
+            a.session__link.media-figure(href=session.link, title=session.name)
+              img.session__logo(src= "/sessions/" + session.img, alt=session.name)
+            .media-body
+              div
                 span= session.name
-                br
-                a(href= "https://twitter.com/" + session.twitter, target='_blank')= "@" + session.twitter
-                br
-                a(href=session.link, target='_blank')= session.link
-            p.session__text!= session.text
+                =" "
+
+                if session.twitter
+                  a(href= "https://twitter.com/" + session.twitter, target='_blank')= "@" + session.twitter
+
+                if session.link
+                  a(href=session.link, target='_blank')= session.link
+              p.session__text!= session.text
 
