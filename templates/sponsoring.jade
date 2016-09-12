@@ -187,17 +187,17 @@ block content
         -   return sponsor.metadata.type === 'silver';
         - });
 
-        each sponsor in silverSponsors
-          .small-12.columns.sponsor
-            .text-center
-              a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, alt=sponsor.metadata.name)
-                img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
-              p
-                br
-                a(href='https://twitter.com/' + sponsor.metadata.twitter, target='_blank')= sponsor.metadata.twitter
-                br
-                a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
-            p.sponsor__text!= sponsor.metadata.text
+        //- each sponsor in silverSponsors
+        //-   .small-12.columns.sponsor
+        //-     .text-center
+        //-       a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, alt=sponsor.metadata.name)
+        //-         img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+        //-       p
+        //-         br
+        //-         a(href='https://twitter.com/' + sponsor.metadata.twitter, target='_blank')= sponsor.metadata.twitter
+        //-         br
+        //-         a(href=sponsor.metadata.link, target='_blank')= sponsor.metadata.link
+        //-     p.sponsor__text!= sponsor.metadata.text
 
       .grid
 
