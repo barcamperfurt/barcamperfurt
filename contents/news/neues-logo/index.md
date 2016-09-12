@@ -7,4 +7,6 @@ template: article.jade
 ---
 
 Wir haben unser Logo leicht verändert und um das Wort "Kinder" erweitert.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u1HZHbwwtEs" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/u1HZHbwwtEs" frameborder="0" allowfullscreen></iframe>
+</div>
