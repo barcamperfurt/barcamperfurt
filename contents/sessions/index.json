@@ -7,6 +7,12 @@
   "url": "sessions",
   "sessions": [
     {
+      "name": "Michelle Benzing",
+      "text": "Politikbegeisterung mit dem Kinder-und Jugendradio PEP bei Radio Rüsselsheim",
+      "twitter": "pamiPEP",
+      "img": "Michelle_Benzing.jpg"
+    },
+    {
       "name": "Kerstin Butenhoff-Winkler",
       "text": "Kindern die Mediennutzung nicht madig machen",
       "twitter": "kerstinbuwi",
@@ -26,15 +32,21 @@
     },
     {
       "name": "Karsten Kopjar",
-      "text": "'Online gehen, um abzuschalten?!' - Über einen weisen Umgang mit MobileMedia und die Frage, wie man Spiritualität crossmedial erfahren kann.",
+      "text": "„Online gehen, um abzuschalten?!“ - Über einen weisen Umgang mit MobileMedia und die Frage, wie man Spiritualität crossmedial erfahren kann.",
       "twitter": "medientheologe",
       "img": "Karsten_Kopjar.jpg"
     },
     {
       "name": "André Stämmler",
-      "text": "„Kauf mich!“ – Zulässige Werbung gegenüber Kindern und jugendlichen",
+      "text": "„Kauf mich!“ – Zulässige Werbung gegenüber Kindern und Jugendlichen",
       "twitter": "andre_staemmler",
       "img": "andre_staemmler.jpg"
+    },
+    {
+      "name": "Frances Teuchert",
+      "text": "Social Media beim KiKA (Kinderkanal von ARD & ZDF)",
+      "twitter": "FrancesTeuchert",
+      "img": "Frances_Teuchert.jpg"
     }
   ]
 }
