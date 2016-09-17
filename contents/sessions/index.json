@@ -7,10 +7,22 @@
   "url": "sessions",
   "sessions": [
     {
+      "name": "Steve Hentschke",
+      "text": "Kids für 3D-Druck und -Design begeistern - Ansätze und Möglichketen",
+      "twitter": "makerspace_ef",
+      "img": "Steve_Hentschke.jpg"
+    },
+    {
       "name": "Michelle Benzing",
       "text": "Politikbegeisterung mit dem Kinder-und Jugendradio PEP bei Radio Rüsselsheim",
       "twitter": "pamiPEP",
       "img": "Michelle_Benzing.jpg"
+    },
+    {
+      "name": "Hannes Schauerhammer",
+      "text": "Interaktive Tour für Kids mit der SWE-Wissenswelt-App",
+      "twitter": "dieserhannes",
+      "img": "Hannes_Schauerhammer.jpg"
     },
     {
       "name": "Kerstin Butenhoff-Winkler",
