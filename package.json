@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "repository": "https://github.com/barcamperfurt/barcamperfurt",
   "dependencies": {
+    "deploy-to-git": "0.0.6",
     "lodash": "^2.4.1",
     "moment": "^2.3.0",
     "wintersmith-contents": "^0.1.3",
@@ -14,5 +15,26 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "scripts": {
+    "deploy": "npm run clean && deploy-to-git",
+    "build": "wintersmith build",
+    "clean": "rm -rf barcamperfurt.github.io"
+  },
+  "config": {
+    "deployToGit": {
+      "repository": "git@github.com:barcamperfurt/barcamperfurt.github.io.git",
+      "branch": "master",
+      "folder": "barcamperfurt.github.io",
+      "script": "npm run build",
+      "commit": "Automatic commit text",
+      "user": {
+        "email": "info@barcamp-erfurt.de",
+        "name": "deploy bot"
+      }
+    }
+  },
+  "devDependencies": {
+    "deploy-to-git": "0.0.6"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "output": "../barcamperfurt.github.io",
+  "output": "barcamperfurt.github.io",
   "locals": {
     "url": "http://www.barcamp-erfurt.de",
     "name": "BarCamp Erfurt 2016 - Kinder Jugend Medien",
