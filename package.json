@@ -19,7 +19,8 @@
   "scripts": {
     "deploy": "npm run clean && deploy-to-git",
     "build": "wintersmith build",
-    "clean": "rm -rf barcamperfurt.github.io"
+    "clean": "rm -rf barcamperfurt.github.io",
+    "test": ""
   },
   "config": {
     "deployToGit": {
