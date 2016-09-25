@@ -24,7 +24,7 @@
   },
   "config": {
     "deployToGit": {
-      "repository": "git@github.com:barcamperfurt/barcamperfurt.github.io.git",
+      "repository": "https://$GH_TOKEN@github.com/barcamperfurt.github.io.git",
       "branch": "master",
       "folder": "barcamperfurt.github.io",
       "script": "npm run build",
