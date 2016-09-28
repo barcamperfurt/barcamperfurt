@@ -10,9 +10,10 @@ Die gesamte Veranstaltung ist für angemeldete Teilnehmer kostenlos. Das umfasst
 
 <br \>
 
-##Anmeldung
+Anmeldung
+---------------
 
-<div class="signupFrame" ><iframe  src="//eventbrite.de/tickets-external?eid=26790179147&ref=etckt" frameborder="0" height="480" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.de/r/etckt">Von Eventbrite</a></div></div>
+<div class="signupFrame" ><iframe  src="//eventbrite.de/tickets-external?eid=26790179147&ref=etckt" frameborder="0" height="606" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.de/r/etckt">Von Eventbrite</a></div></div>
 
 Newsletter
 ---------------
