@@ -99,7 +99,7 @@ html(lang='de')
                   each sponsor in goldSponsors
                     .sponsor.text-center
                       a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank', alt=sponsor.metadata.name)
-                        img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+                        img.sponsor__logo(src= sponsor.url + sponsor.metadata.logo, alt=sponsor.metadata.name)
 
             - var silverSponsors = _.filter(sponsors, function(sponsor) {
             -   return sponsor.metadata.type === 'silver';
@@ -111,7 +111,7 @@ html(lang='de')
                   each sponsor in silverSponsors
                     .sponsor.text-center
                       a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-                        img.sponsor__logo.sponsor__logo__silver(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+                        img.sponsor__logo.sponsor__logo__silver(src= sponsor.url + sponsor.metadata.logo, alt=sponsor.metadata.name)
 
 
             - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
@@ -124,7 +124,7 @@ html(lang='de')
                   each sponsor in bronzeSponsors
                     .sponsor.text-center
                       a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
-                        img.sponsor__logo.sponsor__logo__bronze(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+                        img.sponsor__logo.sponsor__logo__bronze(src= sponsor.url + sponsor.metadata.logo, alt=sponsor.metadata.name)
 
     footer.footer.fancy-background
       |<a href="https://www.betterplace.org/de/projects/45050-5-barcamp-kinder-jugend-medien-fachkonferenz-05-06-11-2016" target="_blank">Unterstütze unsere Konferenz jetzt bei betterplace.org. Vielen Dank!</a>
