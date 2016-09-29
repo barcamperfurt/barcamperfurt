@@ -7,6 +7,12 @@
   "url": "sessions",
   "sessions": [
     {
+      "name": "Christopher Bauer",
+      "text": "Coding for kids mit Swift Playground",
+      "link": "http://www.crs-design.eu/",
+      "img": "Christopher_Bauer.jpg"
+    },
+    {
       "name": "Steve Hentschke",
       "text": "Kids für 3D-Druck und -Design begeistern - Ansätze und Möglichkeiten",
       "twitter": "makerspace_ef",
@@ -70,6 +76,18 @@
   "wuensche": [
     {
       "text": "Ich würde mir einen Workshop zu dem Thema \"Graphic Recording\" wünschen. Das wollte ich schon immer mal lernen. Vielleicht gibt es da ja jemanden in Erfurt, der das anbieten könnte?"
+    },
+    {
+      "text": "Der letzte Versuch, den Jugendmedienschutz-Staatsvertrag (JMStV) zu novellieren ist gründlich gescheitert. Es gab eine Vielzahl an Kritikpunkten, ein zentraler davon war eine impraktikable geplante Alterskennzeichnung für Internetinhalte, die auch mit einem Inhaltsfilter verbunden gewesen wäre – eine gute Grundlage für spätere Internetzensur im Allgemeinen."
+    },
+    {
+      "text": "Ich könnte mir einen Trickfilm-Workshop mit Handy oder Tablet zum Oberthema 'Sinnvoller Smartphone-Einsatz in der Schule' vorstellen. In diesem Einführungsworkshop könnte das breite Trickfilm-Spektrum gezeigt und ausprobiert werden."
+    },
+    {
+      "text": "Minecraft als Workshop - Als 'Sandkastenspiel' kann man es nutzen, um zu verschiedensten Themen ins Gespräch zu kommen, Filme zu drehen oder eigene Spielwelten zu entwickeln."
+    },
+    {
+      "text": "Coden für Kinder mit LEGO Mindstorms - die einfache Entwicklungsumgebung macht es auch Kindern in der Welt der Programmierung möglich, automatisch agierende Systeme zu planen und zu entwickeln."
     }
   ]
 }
