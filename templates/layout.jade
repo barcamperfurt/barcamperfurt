@@ -81,7 +81,29 @@ html(lang='de')
 
       .sponsors
         .grid
+
+          h2.text-center in Kooperation mit:
           .small-12.medium-10.medium-centered.large-8.large-centered.columns
+            - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
+            -   return item.index;
+            - }).compact().sortBy(function(item) {
+            -   return item.name;
+            - }).value();
+
+            - var goldSponsors = _.filter(sponsors, function(sponsor) {
+            -   return sponsor.metadata.type === 'partner';
+            - })
+
+            .row
+              .small-12.columns
+                .sponsor-list
+                  each sponsor in goldSponsors
+                    .sponsor.text-center
+                      a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank', alt=sponsor.metadata.name)
+                        img.sponsor__logo(src= sponsor.url + sponsor.metadata.logo, alt=sponsor.metadata.name)
+
+
+            h2.text-center Das Barcamp Erfurt wird unterstützt von:
             - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
             -   return item.index;
             - }).compact().sortBy(function(item) {
@@ -94,7 +116,6 @@ html(lang='de')
 
             .row
               .small-12.columns
-                h2.text-center Das Barcamp Erfurt wird unterstützt von:
                 .sponsor-list
                   each sponsor in goldSponsors
                     .sponsor.text-center
