@@ -7,6 +7,18 @@
   "url": "sessions",
   "sessions": [
     {
+      "name": "Christiane Knutzen",
+      "text": "Computerspiele im Schulkontext. Was leisten Computerspiele für das Lernen im Grundschulalter.",
+      "link": "https://player.me/mightymothra",
+      "img": "Christiane_Knutzen.jpg"
+    },
+    {
+      "name": "Vera Göckelmann",
+      "text": "Medien fur ALLE! Bücher für ALLE! Taktile Bilderbuchillustration für ein inklusives Medium.",
+      "link": "https://www.facebook.com/seikeinhasenfuss/",
+      "img": "Vera_Goeckelmann.jpg"
+    },
+    {
       "name": "Christopher Bauer",
       "text": "Coding for kids mit Swift Playground",
       "link": "http://www.crs-design.eu/",
@@ -74,6 +86,9 @@
     }
   ],
   "wuensche": [
+    {
+      "text": "Erfahrungs- und Ideenaustausch zum Thema multimediales Storytelling."
+    },
     {
       "text": "Ich würde mir einen Workshop zu dem Thema \"Graphic Recording\" wünschen. Das wollte ich schon immer mal lernen. Vielleicht gibt es da ja jemanden in Erfurt, der das anbieten könnte?"
     },
