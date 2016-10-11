@@ -7,6 +7,12 @@
   "url": "sessions",
   "sessions": [
     {
+      "name": "Philipp Brückner",
+      "text": "Gamer vernetzen, Wissen austauschen und Spielen hinterfragen.",
+      "link": "http://bit.ly/2ecQ6v9",
+      "img": "Philipp_Brueckner.jpg"
+    },
+    {
       "name": "Christiane Knutzen",
       "text": "Computerspiele im Schulkontext. Was leisten Computerspiele für das Lernen im Grundschulalter.",
       "link": "https://player.me/mightymothra",
