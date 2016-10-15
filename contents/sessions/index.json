@@ -7,6 +7,12 @@
   "url": "sessions",
   "sessions": [
     {
+      "name": "Christian Cordes",
+      "text": "Digitales Nomadentum - Gadgets und Tools für den ortsunabhängigen Workflow",
+      "twitter": "erlebnischris",
+      "img": "Christian_Cordes.jpg"
+    },
+    {
       "name": "Philipp Brückner",
       "text": "Gamer vernetzen, Wissen austauschen und Spielen hinterfragen.",
       "link": "http://bit.ly/2ecQ6v9",
