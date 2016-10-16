@@ -347,6 +347,9 @@ body:not(.site--start) .menu-wrapper
 .sponsoring__details
   font-size: 1.5em
 
+.sponsor-list
+  margin-bottom: 3em;
+
 .sponsor-list__title
   text-align: center
   border-bottom: 1px solid $grey-light
@@ -363,12 +366,13 @@ body:not(.site--start) .menu-wrapper
 .sponsor
   margin-top: 1.5em
   margin-bottom: 1.5em
-  min-height: 80px
 
 .sponsor a
   word-wrap: break-word
 
-.sponsor__logo
+.sponsor__link
+  display: block
+  margin: 0 auto
   max-height: 250px
   max-width: 300px
   &__bronze
@@ -506,16 +510,13 @@ body:not(.site--start) .menu-wrapper
     margin: 0
     width: 100;
 
-.media {
+.media
   display: flex;
   align-items: flex-start;
-}
 
-.media-figure {
+.media-figure
   margin-right: 1em;
-}
 
-.media-body {
+.media-body
   margin: 0;
   flex: 1;
-}
