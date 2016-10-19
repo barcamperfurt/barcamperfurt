@@ -7,6 +7,31 @@
   "url": "sessions",
   "sessions": [
     {
+      "name": "Thomas-Gabriel Rüdiger",
+      "text": "Onlinegames: Das Bermudadreieck des Jugendmedienschutzes",
+      "twitter": "TGRuediger",
+      "img": "Thomas-Gabriel_Ruediger.jpg"
+
+    },
+    {
+      "name": "Kerstin Butenhoff-Winkler",
+      "text": "Kindern die Mediennutzung nicht madig machen",
+      "twitter": "kerstinbuwi",
+      "img": "kerstin_butenhoff-winkler.jpg"
+    },
+    {
+      "name": "Andre Gülzow",
+      "text": "Schul-IT vs. Home-IT, was macht die Schul IT eigentlich so kompliziert?",
+      "link": "https://www.facebook.com/andre.guelzow",
+      "img": "Andre_Guelzow.jpg"
+    },
+    {
+      "name": "Dorina Fischbach",
+      "text": "Quizstunde - Wie Schüler im Unterricht digitale Quizze aus Papiervorlagen erstellen.",
+      "link": "http://www.quizstunde.de",
+      "img": "Dorina_Fischbach.jpg"
+    },
+    {
       "name": "Christian Cordes",
       "text": "Digitales Nomadentum - Gadgets und Tools für den ortsunabhängigen Workflow",
       "twitter": "erlebnischris",
@@ -61,12 +86,6 @@
       "img": "Hannes_Schauerhammer.jpg"
     },
     {
-      "name": "Kerstin Butenhoff-Winkler",
-      "text": "Kindern die Mediennutzung nicht madig machen",
-      "twitter": "kerstinbuwi",
-      "img": "kerstin_butenhoff-winkler.jpg"
-    },
-    {
       "name": "Katja Reim",
       "text": "Chancen der Medienerziehung",
       "twitter": "computerkind",
@@ -83,12 +102,6 @@
       "text": "„Online gehen, um abzuschalten?!“ - Über einen weisen Umgang mit MobileMedia und die Frage, wie man Spiritualität crossmedial erfahren kann.",
       "twitter": "medientheologe",
       "img": "Karsten_Kopjar.jpg"
-    },
-    {
-      "name": "Dorina Fischbach",
-      "text": "Quizstunde - Wie Schüler im Unterricht digitale Quizze aus Papiervorlagen erstellen.",
-      "link": "http://www.quizstunde.de",
-      "img": "Dorina_Fischbach.jpg"
     },
     {
       "name": "André Stämmler",
