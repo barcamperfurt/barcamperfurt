@@ -7,6 +7,13 @@
   "url": "sessions",
   "sessions": [
     {
+      "name": "Martina Hommen",
+      "text": "Brauchen Kinder einen geschützten Kommunikationsraum im Netz?",
+      "link": "http://www.mein-kika.de",
+      "img": "Martina_Hommen.jpg"
+
+    },
+    {
       "name": "Thomas-Gabriel Rüdiger",
       "text": "Onlinegames: Das Bermudadreieck des Jugendmedienschutzes",
       "twitter": "TGRuediger",
@@ -14,10 +21,24 @@
 
     },
     {
+      "name": "Tim Gailus",
+      "text": "„vom Auf bau und der Krafig gut.“ - Ein Jahr KiKA-Medienmagazin „Timster“: Lessons learned und Zuschauerbeteiligung",
+      "link": "http://www.kika.de/timster",
+      "img": "Tim_Gailus.jpg"
+
+    },
+    {
       "name": "Kerstin Butenhoff-Winkler",
       "text": "Kindern die Mediennutzung nicht madig machen",
       "twitter": "kerstinbuwi",
       "img": "kerstin_butenhoff-winkler.jpg"
+    },
+    {
+      "name": "Anne Brantin, Clarissa Corrêa da Silva, Simon Schneider",
+      "text": "KiKA ist Ansprechpartner für seine Zuschauer. KUMMERKASTEN als uniques, interaktives und crossmediales Angebot für die wilde Pubertätszeit.",
+      "link": "http://www.kika-kummerkasten.de/",
+      "img": "Kummerkasten.jpg"
+
     },
     {
       "name": "Andre Gülzow",
@@ -36,6 +57,12 @@
       "text": "Digitales Nomadentum - Gadgets und Tools für den ortsunabhängigen Workflow",
       "twitter": "erlebnischris",
       "img": "Christian_Cordes.jpg"
+    },
+    {
+      "name": "Anke Melchior",
+      "text": "IT in der Gehörlosenbildung",
+      "img": "Anke_Melchior.jpg"
+
     },
     {
       "name": "Philipp Brückner",
