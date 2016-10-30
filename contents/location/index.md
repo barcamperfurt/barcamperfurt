@@ -10,36 +10,38 @@ category: location
 
 05.11.2016 09:00 - 18:00<br />
 06.11.2016 09:00 - 16:30<br />
-<a href="http://www.barcamp-erfurt.de/schedule">zum Zeitplan</a><br />
+<a href="http://www.barcamp-erfurt.de/sessionwall/">zum Zeitplan</a><br />
 <br />
 **STUDIOPARK KinderMedienZentrum Erfurt**
 <br />
-Erich-Kästner-Straße 1<br />
+Erich-Kästner-Straße 1a<br />
 99094 Erfurt<br />
 <a href="https://www.google.de/maps/place/STUDIOPARK+KinderMedienZentrum/@50.962001,10.997024,15z/data=!4m2!3m1!1s0x0:0x21aa05e82e07edda" title="Zu Google Maps" target="_blank">Zu Google Maps »</a>
 
 <div style="overflow: hidden">
   <div class="location__partybox">
     <h2>Freitag Warm-up</h2>
-    04.11.2016 20:00<br />
+    <p>04.11.2016 20:00<br />
     <br />
     **KIDS interactive Büro**<br />
-    Erich-Kästner-Straße 1<br />
+    Erich-Kästner-Straße 1a<br />
     99094 Erfurt<br />
     <br />
-    <a href="http://www.barcamp-erfurt.de/news">mehr Infos hier</a>
+    <a href="http://www.barcamp-erfurt.de/news/warmup/">mehr Infos hier</a>
+    </p>
 
   </div>
 
   <div class="location__partybox">
     <h2>Saturday get-together</h2>
-    05.11.2016 19:00<br />
+    <p>05.11.2016 19:00<br />
     <br />
     **Cafe Nerly**<br />
     Marktstraße 6<br />
     99084 Erfurt<br />
     <br />
     <a href="http://www.nerlyerfurt.de/">Cafe Nerly Website</a>
+    </p>
 
 
     <br>

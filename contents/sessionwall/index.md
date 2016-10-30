@@ -10,7 +10,8 @@ priority: 0.8
 table.SessionTable {
 width:100%;
 background-color:#FFFFFF;
-border-collapse:collapse;border-width:1px;
+border-collapse:collapse;
+border-width:1px;
 border-color:#434A54;
 border-style:solid;
 color:#434A54;
@@ -35,141 +36,204 @@ background-color:#F3F3F3;
 </p>
 <table class="SessionTable">
 <thead>
-<tr>
-<th>Samstag</th>
-<th><a href="http://www.eyeem.com/" title="EyeEm" target="_blank" class="sponsor__link"><img src="/sponsoring/eyeem/logo.png" alt="EyeEm" class="sponsor__logo" width="200px"></a></th>
-<th><a href="http://www.kids-interactive.de/" title="KIDS interactive" target="_blank" class="sponsor__link"><img src="/sponsoring/kidsinteractive/logo.png" alt="KIDS interactive" class="sponsor__logo" width="200px"></a></th>
-<th>Raum "Spielplatz"</th>
-<th><a href="https://www.barco.com/de/" title="Barco" target="_blank" class="sponsor__link"><img src="/sponsoring/barco/logo.png" alt="Barco" class="sponsor__logo"></a></th>
-</tr>
+	<tr>
+		<th>
+			Samstag
+		</th>
+		<th>
+			<a href="http://www.kika.de/" title="KiKA" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/kika/kika.png" alt="KiKa" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://www.kids-interactive.de/" title="KIDS interactive" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/kidsinteractive/kidsinteractive.png" alt="KIDS interactive" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://www.highcoordination.de//" title="High Coordination" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/x_highcoordination/x_highcoordination.png" alt="HighCoordination GmbH" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://www.mth-deutschland.de/" title="MTH" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/x_mth/mth.png" alt="MTH Deutschland" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://offensichtlich.berlin/" title="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/offensichtlich/offensichtlich.png" alt="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" class="sponsor__logo">
+			</a>
+		</th>
+	</tr>
 </thead>
+
 <tbody>
-<tr>
-<td>09:00 - 10:00</td>
-<td colspan="4"><strong>Anmeldung & Frühstück</strong></td>
-</tr>
-<tr>
-<td>10:00 - 11:00</td>
-<td colspan="4"><strong>Session Planning</strong> (Raum "EyeEm")</td>
-</tr>
-<tr>
-<td>11:00 - 11:45</td>
-<td>Minecraft und Inklusoin</td>
-<td>Teilhabe (Film u. Foto vom Rollstuhl aus) // @trollwikk</td>
-<td>WarmUp - Kennenlernen // @nachmaass</td>
-<td>--</td>
-</tr>
-<tr>
-<td>12:00 - 12:45</td>
-<td>3D Scanning und Kompressionsstrümpfe // Christian @datenzentrale</td>
-<td>Schülerzeitungsarbeit in Thüringen // @sunsue</td>
-<td>Bin ich wirklich süchtig? // @nachmaass</td>
-<td>DCE vs Eigene Extension // Tommy</td>
-</tr>
-<tr>
-<td>13:00 - 13:45</td>
-<td colspan="4"><strong>Mittagessen</strong></td>
-</tr>
-<tr>
-<td>14:00 - 14:45</td>
-<td>Ralph Caspers live im Interview // @hyperjinx</td>
-<td>360° Konzepte - Design - Technik</td>
-<td>HTML5 Spiele mit Flash IDE + createJS // Carsten</td>
-<td>--</td>
-</tr>
-<tr>
-<td>15:00 - 15:45</td>
-<td>Lernen mit Minecraft // Sebastian @inselmomente</td>
-<td>Let's talk about netflix</td>
-<td>Was haben meine Katze, Zimmerpflanze und Heizung gemeinsam? // Hannes @brandungskieker</td>
-<td>Mediennutzungsvertrag // Martin @myrbel</td>
-</tr>
-<tr>
-<td>16:00 - 16:45</td>
-<td>Games then and now</td>
-<td>Jugendpresse Netzwerk Thüringen</td>
-<td>Transparenz Gamification // @ThuerTG</td>
-<td>Musiker Diskussionsrunde // J. Guenther</td>
-</tr>
-<tr>
-<td>17:00 - 17:45</td>
-<td>Sexy Eyes - Eure Augen // Norman @ihraugenoptiker</td>
-<td>Spongebob Schwammkopf pädagogisch wertvoll?</td>
-<td>Papierloses Büro - so geht's // Hannes @brandungskieker</td>
-<td>--</td>
-</tr>
-<tr>
-<td>18:00 - 18:15</td>
-<td colspan="4"><strong>Abschlusssession</strong> (Raum "EyeEm")</td>
-</tr>
+	<tr>
+		<td>09:00 - 10:00</td>
+		<td colspan="5"><strong>Anmeldung & Frühstück</strong></td>
+	</tr>
+	<tr>
+		<td>10:00 - 11:00</td>
+		<td colspan="5"><strong>Session Planning</strong> (Raum "KiKA")</td>
+	</tr>
+		<tr>
+		<td>11:15 - 12:00</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>12:15 - 13:00</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>13:00 - 13:45</td>
+		<td colspan="5"><strong>Mittagessen</strong></td>
+	</tr>
+		<tr>
+		<td>13:45 - 14:30</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>14:45 - 15:30</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>15:45 - 16:30</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>16:30 - 17:00</td>
+		<td colspan="5"><strong>Kaffee & Kuchen</strong></td>
+	</tr>
+	<tr>
+		<td>17:00 - 17:45</td>
+		<td colspan="5"><strong>"Web Talk" by KiKA</strong> (Raum "KiKA")</td>
+	</tr>
+	<tr>
+		<td>17:45 - 18:00</td>
+		<td colspan="5"><strong>Abschlusssession</strong> (Raum "KiKA")</td>
+	</tr>
 </tbody>
 </table>
 
 <!-- Sonntag -->
 <p></br>
-<h2>Sonntag</h2>
+<h2>Samstag</h2>
 </p>
 <table class="SessionTable">
 <thead>
-<tr>
-<th>Sonntag</th>
-<th><a href="http://www.eyeem.com/" title="EyeEm" target="_blank" class="sponsor__link"><img src="/sponsoring/eyeem/logo.png" alt="EyeEm" class="sponsor__logo" width="200px"></a></th>
-<th><a href="http://www.kids-interactive.de/" title="KIDS interactive" target="_blank" class="sponsor__link"><img src="/sponsoring/kidsinteractive/logo.png" alt="KIDS interactive" class="sponsor__logo" width="200px"></a></th>
-<th>Raum "Spielplatz"</th>
-<th><a href="https://www.barco.com/de/" title="Barco" target="_blank" class="sponsor__link"><img src="/sponsoring/barco/logo.png" alt="Barco" class="sponsor__logo"></a></th>
-</tr>
+	<tr>
+		<th>
+			Sonntag
+		</th>
+		<th>
+			<a href="http://www.kika.de/" title="KiKA" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/kika/kika.png" alt="KiKa" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://www.kids-interactive.de/" title="KIDS interactive" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/kidsinteractive/kidsinteractive.png" alt="KIDS interactive" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://www.highcoordination.de//" title="High Coordination" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/x_highcoordination/x_highcoordination.png" alt="HighCoordination GmbH" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://www.mth-deutschland.de/" title="MTH" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/x_mth/mth.png" alt="MTH Deutschland" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://offensichtlich.berlin/" title="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/offensichtlich/offensichtlich.png" alt="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" class="sponsor__logo">
+			</a>
+		</th>
+	</tr>
 </thead>
+
 <tbody>
-<tr>
-<td>09:00 - 10:00</td>
-<td colspan="4"><strong>Anmeldung & Frühstück</strong></td>
-</tr>
-<tr>
-<td>10:00 - 11:00</td>
-<td colspan="4"><strong>Session Planning</strong> (Raum "EyeEm")</td>
-</tr>
-<tr>
-<td>11:00 - 11:45</td>
-<td>Kika Timster Format Preview  // @mmontag @McGimsen</td>
-<td>Animation im Web (TweenMax)</td>
-<td>WarmUp - Wie erzeuge ich Energie wo keine ist.. // Sören</td>
-<td>--</td>
-</tr>
-<tr>
-<td>12:00 - 12:45</td>
-<td>Kika Online Bachstage // @mmontag</td>
-<td>Workflow optimieren</td>
-<td>RapScript Freestyle Rap Tool // @rapscript</td>
-<td>Netzwerk Wissensyoutuber + Bühnenevents // @McGimsen</td>
-</tr>
-<tr>
-<td>12:45 - 13:30</td>
-<td colspan="4"><strong>Mittagessen</strong></td>
-</tr>
-<tr>
-<td>13:30 - 14:15</td>
-<td>KonTROLLE in Social Media // Christine gutefrage.net</td>
-<td>Wie gehe ich offline?</td>
-<td>Theater als Medium der Zukunft // @mitossi</td>
-<td>Schule - Medien - Tablet // Sebastian</td>
-</tr>
-<tr>
-<td>14:30 - 15:15</td>
-<td>Fotografie // Peter @cainvommars</td>
-<td>Identität und Gaming // Jan</td>
-<td>BarSession // Sören</td>
-<td>Lytro - Spielzeug oder Fotografie der Zukunft</td>
-</tr>
-<tr>
-<td>15:30 - 16:15</td>
-<td>Freie Fotos // @zielmedien</td>
-<td>Transparenz // @ThuerTG</td>
-<td>BarSession</td>
-<td>--</td>
-</tr>
-<tr>
-<td>16:30 - 16:45</td>
-<td colspan="4"><strong>Abschlusssession</strong> (Raum "EyeEm")</td>
-</tr>
+	<tr>
+		<td>09:00 - 10:00</td>
+		<td colspan="5"><strong>Anmeldung & Frühstück</strong></td>
+	</tr>
+	<tr>
+		<td>10:00 - 11:00</td>
+		<td colspan="5"><strong>Session Planning</strong> (Raum "KiKA")</td>
+	</tr>
+		<tr>
+		<td>11:15 - 12:00</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>12:15 - 13:00</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>13:00 - 13:45</td>
+		<td colspan="5"><strong>Mittagessen</strong></td>
+	</tr>
+		<tr>
+		<td>13:45 - 14:30</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>14:45 - 15:30</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>15:45 - 16:30</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>16:30 - 17:00</td>
+		<td colspan="5"><strong>Kaffee & Kuchen</strong></td>
+	</tr>
+	<tr>
+		<td>17:45 - 18:00</td>
+		<td colspan="5"><strong>Abschlusssession</strong> (Raum "KiKA")</td>
+	</tr>
 </tbody>
 </table>
