@@ -1,17 +1,258 @@
 ---
-title: Locations
+title: Ablauf & Locations
 changefreq: weekly
 priority: 0.8
 template: simple.jade
 category: location
 ---
 
-## BarCamp:
+<!-- CSS Code -->
+<style type="text/css" scoped>
+table.SessionTable {
+width:100%;
+background-color:#FFFFFF;
+border-collapse:collapse;
+border-width:1px;
+border-color:#434A54;
+border-style:solid;
+color:#434A54;
+text-align: center;
+}
 
-05.11.2016 09:00 - 18:00<br />
-06.11.2016 09:00 - 16:30<br />
-<a href="/sessionwall/">zum Zeitplan</a><br />
-<br />
+table.SessionTable td, table.SessionTable th {
+border-width:1px;
+border-color:#434A54;
+border-style:solid;
+padding:3px;
+}
+
+table.SessionTable thead {
+background-color:#F3F3F3;
+}
+</style>
+
+
+<!-- Freitag -->
+<p></br>
+<h2>Freitag</h2>
+<p style="text-align: center;">
+<strong>Warm-up</strong><br />
+18Uhr: Doors open<br />
+19Uhr: Ignite Talks<br />
+20Uhr: Essen, Trinken, Kennenlernen<br />
+(open end)</p>
+
+<!-- SAMSTAG -->
+<p></br>
+<h2>Samstag</h2>
+</p>
+<table class="SessionTable">
+<thead>
+	<tr>
+		<th>
+			Samstag
+		</th>
+		<th>
+			<a href="http://www.kika.de" title="KiKA" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/kika/kika.png" alt="KiKa" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://www.kids-interactive.de/" title="KIDS interactive" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/kidsinteractive/kidsinteractive.png" alt="KIDS interactive" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://www.highcoordination.de" title="High Coordination" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/x_highcoordination/x_highcoordination.png" alt="HighCoordination GmbH" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://www.mth-deutschland.de" title="MTH" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/x_mth/mth.png" alt="MTH Deutschland" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://offensichtlich.berlin" title="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/offensichtlich/offensichtlich.png" alt="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" class="sponsor__logo">
+			</a>
+		</th>
+	</tr>
+</thead>
+
+<tbody>
+	<tr>
+		<td>09:00 - 10:00</td>
+		<td colspan="5"><strong>Anmeldung & Frühstück</strong></td>
+	</tr>
+	<tr>
+		<td>10:00 - 11:00</td>
+		<td colspan="5"><strong>Session Planning</strong> (Raum "KiKA")</td>
+	</tr>
+		<tr>
+		<td>11:15 - 12:00</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>12:15 - 13:00</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>13:00 - 13:45</td>
+		<td colspan="5"><strong>Mittagessen</strong></td>
+	</tr>
+		<tr>
+		<td>13:45 - 14:30</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>14:45 - 15:30</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>15:45 - 16:30</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>16:30 - 17:00</td>
+		<td colspan="5"><strong>Kaffee & Kuchen</strong></td>
+	</tr>
+	<tr>
+		<td>17:00 - 17:45</td>
+		<td colspan="5"><strong>"Web Talk" by KiKA</strong> (Raum "KiKA")</td>
+	</tr>
+	<tr>
+		<td>17:45 - 18:00</td>
+		<td colspan="5"><strong>Abschlusssession</strong> (Raum "KiKA")</td>
+	</tr>
+</tbody>
+</table>
+
+<!-- Sonntag -->
+<p></br>
+<h2>Sonntag</h2>
+</p>
+<table class="SessionTable">
+<thead>
+	<tr>
+		<th>
+			Sonntag
+		</th>
+		<th>
+			<a href="http://www.kika.de" title="KiKA" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/kika/kika.png" alt="KiKa" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://www.kids-interactive.de" title="KIDS interactive" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/kidsinteractive/kidsinteractive.png" alt="KIDS interactive" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://www.highcoordination.de" title="High Coordination" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/x_highcoordination/x_highcoordination.png" alt="HighCoordination GmbH" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://www.mth-deutschland.de" title="MTH" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/x_mth/mth.png" alt="MTH Deutschland" class="sponsor__logo">
+			</a>
+		</th>
+		<th>
+			<a href="http://offensichtlich.berlin" title="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" target="_blank" class="sponsor__link">
+				<img src="/sponsoring/offensichtlich/offensichtlich.png" alt="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" class="sponsor__logo">
+			</a>
+		</th>
+	</tr>
+</thead>
+
+<tbody>
+	<tr>
+		<td>09:00 - 10:00</td>
+		<td colspan="5"><strong>Anmeldung & Frühstück</strong></td>
+	</tr>
+	<tr>
+		<td>10:00 - 11:00</td>
+		<td colspan="5"><strong>Session Planning</strong> (Raum "KiKA")</td>
+	</tr>
+		<tr>
+		<td>11:15 - 12:00</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>12:15 - 13:00</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>13:00 - 13:45</td>
+		<td colspan="5"><strong>Mittagessen</strong></td>
+	</tr>
+		<tr>
+		<td>13:45 - 14:30</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>14:45 - 15:30</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>15:45 - 16:30</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+		<td>--</td>
+	</tr>
+	<tr>
+		<td>16:30 - 17:00</td>
+		<td colspan="5"><strong>Kaffee & Kuchen</strong></td>
+	</tr>
+	<tr>
+		<td>17:45 - 18:00</td>
+		<td colspan="5"><strong>Abschlusssession</strong> (Raum "KiKA")</td>
+	</tr>
+</tbody>
+</table>
+<br /><br /><br />
+<h1>Locations</h1>
+
+<h2>BarCamp:</h2>
 **STUDIOPARK KinderMedienZentrum Erfurt**
 <br />
 Erich-Kästner-Straße 1a<br />
@@ -21,27 +262,22 @@ Erich-Kästner-Straße 1a<br />
 <div style="overflow: hidden">
   <div class="location__partybox">
     <h2>Freitag Warm-up</h2>
-    <p>04.11.2016 20:00<br />
     <br />
     **KIDS interactive Büro**<br />
     Erich-Kästner-Straße 1a<br />
     99094 Erfurt<br />
     <br />
     <a href="http://www.barcamp-erfurt.de/news/warmup/">mehr Infos hier</a>
-    </p>
-
   </div>
 
   <div class="location__partybox">
     <h2>Saturday get-together</h2>
-    <p>05.11.2016 19:00<br />
     <br />
     **Cafe Nerly**<br />
     Marktstraße 6<br />
     99084 Erfurt<br />
     <br />
     <a href="http://www.nerlyerfurt.de/">Cafe Nerly Website</a>
-    </p>
 
 
     <br>

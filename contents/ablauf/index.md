@@ -1,8 +1,9 @@
 ---
-title: Sessionwall
+title: Ablauf
 template: simple.jade
 changefreq: weekly
 priority: 0.8
+category: sessionwall
 ---
 
 <!-- CSS Code -->
@@ -41,7 +42,7 @@ background-color:#F3F3F3;
 			Samstag
 		</th>
 		<th>
-			<a href="http://www.kika.de/" title="KiKA" target="_blank" class="sponsor__link">
+			<a href="http://www.kika.de" title="KiKA" target="_blank" class="sponsor__link">
 				<img src="/sponsoring/kika/kika.png" alt="KiKa" class="sponsor__logo">
 			</a>
 		</th>
@@ -51,17 +52,17 @@ background-color:#F3F3F3;
 			</a>
 		</th>
 		<th>
-			<a href="http://www.highcoordination.de//" title="High Coordination" target="_blank" class="sponsor__link">
+			<a href="http://www.highcoordination.de" title="High Coordination" target="_blank" class="sponsor__link">
 				<img src="/sponsoring/x_highcoordination/x_highcoordination.png" alt="HighCoordination GmbH" class="sponsor__logo">
 			</a>
 		</th>
 		<th>
-			<a href="http://www.mth-deutschland.de/" title="MTH" target="_blank" class="sponsor__link">
+			<a href="http://www.mth-deutschland.de" title="MTH" target="_blank" class="sponsor__link">
 				<img src="/sponsoring/x_mth/mth.png" alt="MTH Deutschland" class="sponsor__logo">
 			</a>
 		</th>
 		<th>
-			<a href="http://offensichtlich.berlin/" title="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" target="_blank" class="sponsor__link">
+			<a href="http://offensichtlich.berlin" title="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" target="_blank" class="sponsor__link">
 				<img src="/sponsoring/offensichtlich/offensichtlich.png" alt="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" class="sponsor__logo">
 			</a>
 		</th>
@@ -147,27 +148,27 @@ background-color:#F3F3F3;
 			Sonntag
 		</th>
 		<th>
-			<a href="http://www.kika.de/" title="KiKA" target="_blank" class="sponsor__link">
+			<a href="http://www.kika.de" title="KiKA" target="_blank" class="sponsor__link">
 				<img src="/sponsoring/kika/kika.png" alt="KiKa" class="sponsor__logo">
 			</a>
 		</th>
 		<th>
-			<a href="http://www.kids-interactive.de/" title="KIDS interactive" target="_blank" class="sponsor__link">
+			<a href="http://www.kids-interactive.de" title="KIDS interactive" target="_blank" class="sponsor__link">
 				<img src="/sponsoring/kidsinteractive/kidsinteractive.png" alt="KIDS interactive" class="sponsor__logo">
 			</a>
 		</th>
 		<th>
-			<a href="http://www.highcoordination.de//" title="High Coordination" target="_blank" class="sponsor__link">
+			<a href="http://www.highcoordination.de" title="High Coordination" target="_blank" class="sponsor__link">
 				<img src="/sponsoring/x_highcoordination/x_highcoordination.png" alt="HighCoordination GmbH" class="sponsor__logo">
 			</a>
 		</th>
 		<th>
-			<a href="http://www.mth-deutschland.de/" title="MTH" target="_blank" class="sponsor__link">
+			<a href="http://www.mth-deutschland.de" title="MTH" target="_blank" class="sponsor__link">
 				<img src="/sponsoring/x_mth/mth.png" alt="MTH Deutschland" class="sponsor__logo">
 			</a>
 		</th>
 		<th>
-			<a href="http://offensichtlich.berlin/" title="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" target="_blank" class="sponsor__link">
+			<a href="http://offensichtlich.berlin" title="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" target="_blank" class="sponsor__link">
 				<img src="/sponsoring/offensichtlich/offensichtlich.png" alt="Optiker Berlin | Offensichtlich - Ihr Augenoptiker" class="sponsor__logo">
 			</a>
 		</th>
