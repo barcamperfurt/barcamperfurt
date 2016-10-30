@@ -1,6 +1,6 @@
 ---
 title: Twitterwall
-date: 2016-10-25
+date: 2016-10-26
 changefreq: weekly
 priority: 0.9
 template: article.jade
