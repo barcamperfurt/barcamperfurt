@@ -10,7 +10,7 @@ category: location
 
 05.11.2016 09:00 - 18:00<br />
 06.11.2016 09:00 - 16:30<br />
-<a href="http://www.barcamp-erfurt.de/sessionwall/">zum Zeitplan</a><br />
+<a href="/sessionwall/">zum Zeitplan</a><br />
 <br />
 **STUDIOPARK KinderMedienZentrum Erfurt**
 <br />
