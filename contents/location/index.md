@@ -291,10 +291,12 @@ Erich-Kästner-Straße 1a<br />
 "><img src="/images/BCEF_lageplan.png"></a></div>
 -->
 
-## Umgebungskarte
+ 
+<h2 id="anfahrt">Anfahrt</h2>
+
+**Umgebungskarte**
 <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/cainvommars.mdoa02ph/attribution,zoompan,zoomwheel.html?access_token=pk.eyJ1IjoiY2FpbnZvbW1hcnMiLCJhIjoiOWJkZDdhMzc4MzYwNjU3ZTU2ODg4ODI4OGUyYWRiMGUifQ.D7azIHUGIOXL4Uqrl4PGeg'></iframe>
 
-<h2 id="anfahrt">Anfahrt</h2>
 
 **Anreise mit der Bahn**
 
