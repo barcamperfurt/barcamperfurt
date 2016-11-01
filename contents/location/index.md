@@ -37,9 +37,9 @@ background-color:#F3F3F3;
 <h2>Freitag</h2>
 <p style="text-align: center;">
 <strong>Warm-up</strong><br />
-18Uhr: Doors open<br />
-19Uhr: Ignite Talks<br />
-20Uhr: Essen, Trinken, Kennenlernen<br />
+18 Uhr: Doors open<br />
+19 Uhr: Ignite Talks<br />
+20 Uhr: Essen, Trinken, Kennenlernen<br />
 (open end)</p>
 
 <!-- SAMSTAG -->
@@ -139,7 +139,7 @@ background-color:#F3F3F3;
 	</tr>
 	<tr>
 		<td>17:00 - 17:45</td>
-		<td colspan="5"><strong>"Web Talk" by KiKA</strong> (Raum "KiKA")</td>
+		<td colspan="5"><strong>"Web Talk" vom KiKA</strong> (Raum "KiKA")</td>
 	</tr>
 	<tr>
 		<td>17:45 - 18:00</td>
@@ -271,7 +271,7 @@ Erich-Kästner-Straße 1a<br />
   </div>
 
   <div class="location__partybox">
-    <h2>Saturday get-together</h2>
+    <h2>Samstag get-together</h2>
     <br />
     **Cafe Nerly**<br />
     Marktstraße 6<br />
