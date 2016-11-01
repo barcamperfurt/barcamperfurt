@@ -149,7 +149,7 @@ background-color:#F3F3F3;
 </table>
 
 <!-- Sonntag -->
-<p></br>
+</br>
 <h2 id="sonntag">Sonntag</h2>
 </p>
 <table class="SessionTable">
@@ -295,8 +295,10 @@ Erich-Kästner-Straße 1a<br />
 <h2 id="anfahrt">Anfahrt</h2>
 
 **Umgebungskarte**
-<iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/cainvommars.mdoa02ph/attribution,zoompan,zoomwheel.html?access_token=pk.eyJ1IjoiY2FpbnZvbW1hcnMiLCJhIjoiOWJkZDdhMzc4MzYwNjU3ZTU2ODg4ODI4OGUyYWRiMGUifQ.D7azIHUGIOXL4Uqrl4PGeg'></iframe>
+<iframe width='100%' height='500px' frameBorder='0' style="margin-bottom:25px;" src='https://a.tiles.mapbox.com/v4/cainvommars.mdoa02ph/attribution,zoompan,zoomwheel.html?access_token=pk.eyJ1IjoiY2FpbnZvbW1hcnMiLCJhIjoiOWJkZDdhMzc4MzYwNjU3ZTU2ODg4ODI4OGUyYWRiMGUifQ.D7azIHUGIOXL4Uqrl4PGeg'></iframe>
 
+**Gebäudeplan**
+<div><img src="/images/BCEF_Raumplan_2016.png" style="margin: auto; width: 85%; display: block; margin-bottom:25px"></div>
 
 **Anreise mit der Bahn**
 
