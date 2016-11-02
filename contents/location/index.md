@@ -312,7 +312,7 @@ Vom Anger fährt die Linie 4 in Richtung Bindersleben/Flughafen. An der Halteste
 **Anreise mit dem Auto**
 
 Einfach in eure Maps-App oder Navi folgende Adresse eingeben:
-Erich-Kästner-Straße 1
+Erich-Kästner-Straße 1a
 99094 Erfurt
 
 Um direkt auf dem Gelände zu parken, wählt bitte an der Schranke die 393 und es wird euch aufgemacht.
