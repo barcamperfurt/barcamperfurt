@@ -271,7 +271,7 @@ Erich-Kästner-Straße 1a<br />
   </div>
 
   <div class="location__partybox">
-    <h2>Samstag get-together</h2>
+    <h2>Samstag Get-together</h2>
     <br />
     **Cafe Nerly**<br />
     Marktstraße 6<br />
@@ -291,7 +291,7 @@ Erich-Kästner-Straße 1a<br />
 "><img src="/images/BCEF_lageplan.png"></a></div>
 -->
 
- 
+
 <h2 id="anfahrt">Anfahrt</h2>
 
 **Umgebungskarte**
