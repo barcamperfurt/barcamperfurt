@@ -7,12 +7,19 @@ block title
 block content
   .grid
     .small-12.medium-10.medium-centered.large-8.large-centered.columns
+      h1 Zu den Sessions
+
+
+      a.link(href=/sessionswall/, style="text-align: center")
+        p barcamp-erfurt.de/sessionwall
+
+
       article
         header
           h1!= page.title
         p Wir fragen jeden Teilnehmer nach der Anmeldung nach möglichen Sessions und listen sie hier. Du hast schon etwas geplant und willst es hier gelistet sehen? Dann schreib einfach <a href=\"mailto:martin@barcamp-erfurt.de\">martin@barcamp-erfurt.de</a>. Diese Liste ersetzt aber nicht das Session Planning. Das findet wie gehabt an den BarCamp Tagen statt.
         .grid.sessions
-          each session in page.metadata.sessions        
+          each session in page.metadata.sessions
             .session.media
               a.session__link.media-figure(href=session.link, title=session.name)
                 img.session__logo(src= "/sessions/" + session.img, alt=session.name)
@@ -30,9 +37,9 @@ block content
 
         .session-wunsch
           h1 Wunschsessions
-          p Du weißt nicht, zu welchem Thema du eine Session abhalten könntest? Hier findest du Wünsche anderer Teilnehmer. Wunsch-Themen schickst du einfach an <a href=\"mailto:martin@barcamp-erfurt.de\">martin@barcamp-erfurt.de</a>. 
+          p Du weißt nicht, zu welchem Thema du eine Session abhalten könntest? Hier findest du Wünsche anderer Teilnehmer. Wunsch-Themen schickst du einfach an <a href=\"mailto:martin@barcamp-erfurt.de\">martin@barcamp-erfurt.de</a>.
           .grid.sessions
             ul
-              each session in page.metadata.wuensche        
+              each session in page.metadata.wuensche
                 li.session
                   p.session__text!= session.text
