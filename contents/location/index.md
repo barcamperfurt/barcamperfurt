@@ -91,19 +91,19 @@ background-color:#F3F3F3;
 	</tr>
 		<tr>
 		<td>11:15 - 12:00</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
+		<td>"Hello Barbie" Predictive Consumer Intention @peterhense</td>
+		<td>Hochschulgruppe Gaming</td>
+		<td>Medienerziehung und Spaß dabei - Katja Reim</td>
+		<td>Musik für Kinder</td>
+		<td>Beschwerdemarketing</td>
 	</tr>
 	<tr>
 		<td>12:15 - 13:00</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
+		<td>Onlinegames: Bermudadreieck des Jugendmedienschutzes @TGRuediger</td>
+		<td>Games in der Schule</td>
+		<td>QuizStunde - Digitale Quizze aus Papiervorlagen</td>
+		<td>Springschool Thüringen 2017</td>
+		<td>Bücher für alle! Taktile Bilderbuchillustration für ein inklusives Medium</td>
 	</tr>
 	<tr>
 		<td>13:00 - 13:45</td>
@@ -111,27 +111,27 @@ background-color:#F3F3F3;
 	</tr>
 		<tr>
 		<td>13:45 - 14:30</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
+		<td>KiKA #Kummerkasten</td>
+		<td>Chocolate covered Broccoli - unser Game im Test</td>
+		<td>Kids und 3D-Druck</td>
+		<td>Netflix & Co. - welche SErien haben Swag?</td>
+		<td>IT von Gehörlosen, IT für Gehörlose</td>
 	</tr>
 	<tr>
 		<td>14:45 - 15:30</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
+		<td>Ca$h durch Social Media, Blogging & Youtube</td>
+		<td>Let's relaunch internet-abc.de</td>
+		<td>Timster: Lessons learned & Zuschauerbeteiligung @timgailus</td>
+		<td>Webentwicklung Roundtable</td>
+		<td>Junge Leute für's Medien machen begeistern @nellyonherway</td>
 	</tr>
 	<tr>
 		<td>15:45 - 16:30</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
+		<td>Tech Lifehacking @erlebnischris</td>
+		<td>DevOp - Betrieb von Plattformen (Docker, PHP, Angular, ...</td>
+		<td>PEP - Politik einfach präsentiert - Radiosendung</td>
+		<td>Tipss für Sport, Aris</td>
+		<td>Medienjunkies erziehen Pubertiere</td>
 	</tr>
 	<tr>
 		<td>16:30 - 17:00</td>
