@@ -1,5 +1,5 @@
 ---
-title: Ablauf
+title: Sessionwall
 template: simple.jade
 changefreq: weekly
 priority: 0.8
