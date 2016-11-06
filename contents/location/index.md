@@ -149,8 +149,8 @@ background-color:#F3F3F3;
 </table>
 
 <!-- Sonntag -->
-</br>
-<h2 id="sonntag">Sonntag</h2>
+<p></br>
+<h2>Samstag</h2>
 </p>
 <table class="SessionTable">
 <thead>
@@ -197,18 +197,18 @@ background-color:#F3F3F3;
 	</tr>
 		<tr>
 		<td>11:15 - 12:00</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
+		<td>Mein KiKA</td>
+		<td>WebAssembly Schöne neue Browserwelt</td>
+		<td>"Jugend hackt" in Thüringen @stephanjauch</td>
+		<td>Online gehen um abzuschalten</td>
 		<td>--</td>
 	</tr>
 	<tr>
 		<td>12:15 - 13:00</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
+		<td>"Kauf mich" - Werbung ggü Kindern</td>
+		<td>Virtual Reality @cainvommars</td>
+		<td>Vom Blog zum Buch @zielmedium</td>
+		<td>Museum der Zukunft @fuchsontherun</td>
 		<td>--</td>
 	</tr>
 	<tr>
@@ -217,34 +217,26 @@ background-color:#F3F3F3;
 	</tr>
 		<tr>
 		<td>13:45 - 14:30</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
+		<td>--Software & Medien in Schulen</td>
+		<td>VR-Game-Workshop @DNLBSCHFF</td>
+		<td>"PEP - politik einfach erklärt" Radiosendung</td>
+		<td>Finde deine Mitte @paula</td>
 		<td>--</td>
 	</tr>
 	<tr>
 		<td>14:45 - 15:30</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-	</tr>
-	<tr>
-		<td>15:45 - 16:30</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
-		<td>--</td>
+		<td>Kinderfilme kurz und lang</td>
+		<td>SWE Wissenswelt - AR-App für Schüler Klasse 7</td>
+		<td>Wann Radio flunkert und wie's hrlicher geht</td>
+		<td>How to #bcef - Feedback Session</td>
 		<td>--</td>
 	</tr>
 	<tr>
-		<td>16:30 - 17:00</td>
+		<td>15:30 - 15:45</td>
 		<td colspan="5"><strong>Kaffee & Kuchen</strong></td>
 	</tr>
 	<tr>
-		<td>17:45 - 18:00</td>
+		<td>15:45 - 16:00</td>
 		<td colspan="5"><strong>Abschlusssession</strong> (Raum "KiKA")</td>
 	</tr>
 </tbody>
