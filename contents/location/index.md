@@ -150,7 +150,7 @@ background-color:#F3F3F3;
 
 <!-- Sonntag -->
 <p></br>
-<h2>Samstag</h2>
+<h2 id="samstag">Sonntag</h2>
 </p>
 <table class="SessionTable">
 <thead>
@@ -200,16 +200,16 @@ background-color:#F3F3F3;
 		<td>Mein KiKA</td>
 		<td>WebAssembly Schöne neue Browserwelt</td>
 		<td>"Jugend hackt" in Thüringen @stephanjauch</td>
-		<td>Online gehen um abzuschalten</td>
 		<td>--</td>
+		<td>Online gehen um abzuschalten</td>
 	</tr>
 	<tr>
 		<td>12:15 - 13:00</td>
 		<td>"Kauf mich" - Werbung ggü Kindern</td>
 		<td>Virtual Reality @cainvommars</td>
 		<td>Vom Blog zum Buch @zielmedium</td>
-		<td>Museum der Zukunft @fuchsontherun</td>
 		<td>--</td>
+		<td>Museum der Zukunft @fuchsontherun</td>
 	</tr>
 	<tr>
 		<td>13:00 - 13:45</td>
@@ -217,19 +217,19 @@ background-color:#F3F3F3;
 	</tr>
 		<tr>
 		<td>13:45 - 14:30</td>
-		<td>--Software & Medien in Schulen</td>
+		<td>Software & Medien in Schulen</td>
 		<td>VR-Game-Workshop @DNLBSCHFF</td>
 		<td>"PEP - politik einfach erklärt" Radiosendung</td>
-		<td>Finde deine Mitte @paula</td>
 		<td>--</td>
+		<td>Finde deine Mitte @paula</td>
 	</tr>
 	<tr>
 		<td>14:45 - 15:30</td>
 		<td>Kinderfilme kurz und lang</td>
 		<td>SWE Wissenswelt - AR-App für Schüler Klasse 7</td>
 		<td>Wann Radio flunkert und wie's hrlicher geht</td>
-		<td>How to #bcef - Feedback Session</td>
 		<td>--</td>
+		<td>How to #bcef - Feedback Session</td>
 	</tr>
 	<tr>
 		<td>15:30 - 15:45</td>
