@@ -150,7 +150,7 @@ background-color:#F3F3F3;
 
 <!-- Sonntag -->
 <p></br>
-<h2 id="samstag">Sonntag</h2>
+<h2 id="sonntag">Sonntag</h2>
 </p>
 <table class="SessionTable">
 <thead>
