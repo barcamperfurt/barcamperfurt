@@ -104,7 +104,7 @@ html(lang='de')
                       a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank', alt=sponsor.metadata.name)
                         img(src= sponsor.url + sponsor.metadata.logo, alt=sponsor.metadata.name)
 
-            
+
             h2.text-center Das Barcamp Erfurt wird unterstützt von:
             - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
             -   return item.index;
@@ -149,7 +149,7 @@ html(lang='de')
                       a.sponsor__link.sponsor__link__bronze(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
                         img(src= sponsor.url + sponsor.metadata.logo, alt=sponsor.metadata.name)
 
-    footer.footer.fancy-background
+    footer.footer.fancy-background#footer
       .grid(style="margin-bottom: 70px; border: 1px; border-style: solid;     border-radius: 3px; color: #c6463f; max-width:400px; padding-top: 20px; padding-bottom: 40px; padding-left: 40px; padding-right: 40px;")
         h2.text-center(style="color: #434a54; font-size: 1.5em; font-family: 'Open Sans', sans-serif; line-height: 1.333; -webkit-font-smoothing: antialiased; margin-bottom: 30px;") Unterstütze das <br />BarCamp Erfurt:
         form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="spenden" name="spenden")
