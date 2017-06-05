@@ -55,11 +55,11 @@ html(lang='de')
                   a.menu__item__link.menu__item__link--start(href='/') Start
                 li.menu__item
                   a.menu__item__link.menu__item__link--news(href='/news/') News
-                li.menu__item
+                //li.menu__item
                   a.menu__item__link.menu__item__link--location(href='/location/') Ablauf & Location
                 //li.menu__item
                   a.menu__item__link.menu__item__link--ablauf(href='/ablauf/') Ablauf
-                li.menu__item
+                //li.menu__item
                   a.menu__item__link.menu__item__link--tickets(href='/tickets/') Tickets
                 li.menu__item
                   a.menu__item__link.menu__item__link--sessions(href='/sessions/') Sessions
@@ -84,7 +84,7 @@ html(lang='de')
       .sponsors
         .grid
 
-          h2.text-center in Kooperation mit:
+          //h2.text-center in Kooperation mit:
           .small-12.medium-10.medium-centered.large-8.large-centered.columns
             - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
             -   return item.index;
@@ -104,7 +104,7 @@ html(lang='de')
                       a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank', alt=sponsor.metadata.name)
                         img(src= sponsor.url + sponsor.metadata.logo, alt=sponsor.metadata.name)
 
-
+            
             h2.text-center Das Barcamp Erfurt wird unterstützt von:
             - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
             -   return item.index;
