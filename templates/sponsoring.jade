@@ -38,105 +38,28 @@ block content
         .small-2.columns.packagebasicsmall
           p
             span Basis&shy;paket Klein
-          div ab 299€
+          div ab 300€
         .small-2.columns.packagebasicbig
           p
             span Basis&shy;paket Groß
-          div ab 599€
+          div ab 600€
         .small-2.columns.packagepremium
           p
             span Premium Paket
-          div ab 999€
-      .grid
-        .small-6.columns
-          p Ihr Logo auf allen Webauftritten
-        .small-2.columns
-          p ✓
-        .small-2.columns
-          p ✓
-        .small-2.columns
-          p ✓
-      .grid
-        .small-6.columns
-          p 2 reservierte Konferenz-Plätze
-        .small-2.columns
-          p ✓
-        .small-2.columns
-          p ✓
-        .small-2.columns
-          p ✓
-      .grid
-        .small-6.columns
-          p Ihre Flyer werden auf der Konferenz ausgelegt
-        .small-2.columns
-          p ✓
-        .small-2.columns
-          p ✓
-        .small-2.columns
-          p ✓
-      .grid
-        .small-6.columns
-          p Ihre Jobangebote auf unserer Jobwall während der Veranstaltung
-        .small-2.columns
-          p ✓
-        .small-2.columns
-          p ✓
-        .small-2.columns
-          p ✓
-      .grid
-        .small-6.columns
-          p Ihre Aufsteller, Beachflags, Poster oder ähnliches können platziert werden
-        .small-2.columns
-          p
-        .small-2.columns
-          p ✓
-        .small-2.columns
-          p ✓
-      .grid
-        .small-6.columns
-          p Einbindung in unsere Social Media Arbeit
-        .small-2.columns
-          p
-        .small-2.columns
-          p ✓
-        .small-2.columns
-          p ✓
-      .grid
-        .small-6.columns
-          p Raumpatenschaft - Wir benennen einen Raum nach Ihnen
-        .small-2.columns
-          p
-        .small-2.columns
-          p
-        .small-2.columns
-          p ✓
-      .grid
-        .small-6.columns
-          p Einbindung in die Offline-Öffentlichkeitsarbeit
-        .small-2.columns
-          p
-        .small-2.columns
-          p
-        .small-2.columns
-          p ✓
-      .grid
-        .small-6.columns
-          p Ihr Logo  auf über 100 T-Shirts für die Teilnehmer
-        .small-2.columns
-          p
-        .small-2.columns
-          p
-        .small-2.columns
-          p ✓
-      .grid
-        .small-6.columns
-          p Individualisierbarer Auftritt. Sie haben einen besonderen Wunsch sich auf dem BarCamp zu präsentieren? Wir machen es möglich
-        .small-2.columns
-          p
-        .small-2.columns
-          p
-        .small-2.columns
-          p ✓
+          div ab 1500€
+      each feature in page.metadata.features
+        .grid
+          .small-6.columns
+            p #{feature.title}
+          p.small-2.columns
+              if feature.small
+                span ✓
+          p.small-2.columns
+            if feature.large
+              span ✓
+          p.small-2.columns
+            if feature.premium
+              span ✓
 
     .small-12.medium-10.medium-centered.large-8.large-centered.columns
       h2 Wie profitiere ich als Unternehmen vom Sponsoring?

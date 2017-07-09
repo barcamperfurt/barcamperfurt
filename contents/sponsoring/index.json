@@ -1,0 +1,82 @@
+{
+  "title": "Sponsoring",
+  "template": "sponsoring.jade",
+  "changefreq": "weekly",
+  "priority": "0.8",
+  "category": "sponsoring",
+  "features": [
+    {
+      "title": "Ihr Logo auf der Webseite",
+      "small": true,
+      "large": true,
+      "premium": true
+    },
+    {
+      "title": "Ihr Logo auf allen Plakaten und Handouts",
+      "small": false,
+      "large": false,
+      "premium": true
+    },
+
+    {
+      "title": "Ihre Flyer werden auf der Konferenz ausgelegt",
+      "small": true,
+      "large": true,
+      "premium": true
+    },
+    {
+      "title": "Ihre Jobangebote auf unserer Jobwall während der Veranstaltung",
+      "small": true,
+      "large": true,
+      "premium": true
+    },
+    {
+      "title": "2 reservierte Konferenz-Plätze",
+      "small": false,
+      "large": true,
+      "premium": true
+    },
+    {
+      "title": "Ihre Aufsteller, Beachflags, Poster oder ähnliches können platziert werden",
+      "small": false,
+      "large": true,
+      "premium": true
+    },
+    {
+      "title": "Einbindung in unsere Social Media Arbeit",
+      "small": false,
+      "large": true,
+      "premium": true
+    },
+    {
+      "title": "Raumpatenschaft - Wir benennen einen Raum nach Ihnen",
+      "small": false,
+      "large": false,
+      "premium": true
+    },
+    {
+      "title": "Einbindung in die Offline-Öffentlichkeitsarbeit",
+      "small": false,
+      "large": false,
+      "premium": true
+    },
+    {
+      "title": "Ihr Logo auf allen T-Shirts/Goodie bags für die Teilnehmer",
+      "small": false,
+      "large": false,
+      "premium": true
+    },
+    {
+      "title": "Fahrstuhl Interview für youtube und social media",
+      "small": false,
+      "large": false,
+      "premium": true
+    },
+    {
+      "title": "8m² Fläche für Messestand o.ä. im Foyer",
+      "small": false,
+      "large": false,
+      "premium": true
+    }
+  ]
+}
