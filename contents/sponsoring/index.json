@@ -6,18 +6,11 @@
   "category": "sponsoring",
   "features": [
     {
-      "title": "Ihr Logo auf der Webseite",
+      "title": "Ihr Logo auf der Webseite, allen Plakaten/Handouts und in der Eröffnungspräsentation",
       "small": true,
       "large": true,
       "premium": true
     },
-    {
-      "title": "Ihr Logo auf allen Plakaten und Handouts",
-      "small": false,
-      "large": false,
-      "premium": true
-    },
-
     {
       "title": "Ihre Flyer werden auf der Konferenz ausgelegt",
       "small": true,
@@ -37,12 +30,6 @@
       "premium": true
     },
     {
-      "title": "Ihre Aufsteller, Beachflags, Poster oder ähnliches können platziert werden",
-      "small": false,
-      "large": true,
-      "premium": true
-    },
-    {
       "title": "Einbindung in unsere Social Media Arbeit",
       "small": false,
       "large": true,
@@ -51,7 +38,7 @@
     {
       "title": "Raumpatenschaft - Wir benennen einen Raum nach Ihnen",
       "small": false,
-      "large": false,
+      "large": true,
       "premium": true
     },
     {
