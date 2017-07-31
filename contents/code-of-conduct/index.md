@@ -30,3 +30,9 @@ Solltest du dich belästigt fühlen oder mitbekommen, dass jemand anders beläst
 Mitglieder des Konferenzpersonals können euch bei allen Problemen helfen. Dies schließt Kontakt mit dem Security-Personal des Veranstaltungsorts und/oder den Behörden mit ein. Darüber hinaus können wir Begleitungen vermitteln und auch weitere Maßnahmen ergreifen, um Belästigten einen sicheren und angenehmen Besuch der Konferenz zu ermöglichen. Wir schätzen deine Anwesenheit sehr.
 
 Wir erwarten von allen Teilnehmern die Einhaltung dieser Regeln auf der gesamten Konferenz, den Workshops und auf allen weiteren Zusammenkünften im Zusammenhang mit dieser Konferenz.
+
+
+
+Original und Quelle: <a href="http://2012.jsconf.us/#/about">http://2012.jsconf.us/#/about</a> &amp; <a href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">The Ada Initiative</a><br>
+
+Dieses Werk steht unter der <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.de">Creative Commons Namensnennung 3.0 Unported Lizenz</a></em>
